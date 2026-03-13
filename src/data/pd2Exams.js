@@ -1,0 +1,1060 @@
+// PD2 Exam data — curated from Danish PD2 exam papers (2013-2023)
+// Each exam has: id, year, season, type, lesson, questions
+
+export const pd2Exams = [
+    // ============ 2023 ============
+    {
+        id: 'pd2-2023-sommer-laese1',
+        year: 2023,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Hverdagen i Danmark',
+            titleEn: 'Everyday Life in Denmark',
+            topics: ['present-tense-r', 'modal-infinitive'],
+            content: `This exam tests your understanding of daily routines and everyday life in Denmark. 
+
+KEY GRAMMAR:
+• Present tense verbs (nutid) always end in -r: spise → spiser
+• Modal verbs (kan, skal, vil) are followed by infinitive WITHOUT "at"
+• Time expressions: om morgenen, om aftenen, hver dag
+
+KEY VOCABULARY:
+• morgenmad (breakfast), frokost (lunch), aftensmad (dinner)
+• arbejde (work), skole (school), hjem (home)
+• transport: bus, tog (train), cykel (bicycle)`
+        },
+        questions: [
+            {
+                id: 'q1',
+                sentence: 'Jeg ______ dansk hver dag.',
+                sentenceEn: 'I speak Danish every day.',
+                answer: 'taler',
+                blank: 'taler',
+                hint: 'at tale (to speak) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at tale',
+                tense: 'present'
+            },
+            {
+                id: 'q2',
+                sentence: 'Hun kan ______ engelsk og dansk.',
+                sentenceEn: 'She can speak English and Danish.',
+                answer: 'tale',
+                blank: 'tale',
+                hint: 'Modal verb + infinitive',
+                ruleId: 'modal-infinitive',
+                verb: 'at tale',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q3',
+                sentence: 'Vi ______ morgenmad kl. 7 hver morgen.',
+                sentenceEn: 'We eat breakfast at 7 every morning.',
+                answer: 'spiser',
+                blank: 'spiser',
+                hint: 'at spise (to eat) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at spise',
+                tense: 'present'
+            },
+            {
+                id: 'q4',
+                sentence: 'Min bror skal ______ til lægen i morgen.',
+                sentenceEn: 'My brother must go to the doctor tomorrow.',
+                answer: 'gå',
+                blank: 'gå',
+                hint: 'Modal verb + infinitive (at gå)',
+                ruleId: 'modal-infinitive',
+                verb: 'at gå',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q5',
+                sentence: 'Børnene ______ i skole fra mandag til fredag.',
+                sentenceEn: 'The children go to school from Monday to Friday.',
+                answer: 'går',
+                blank: 'går',
+                hint: 'at gå (to go) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at gå',
+                tense: 'present'
+            },
+            {
+                id: 'q6',
+                sentence: 'Jeg vil gerne ______ en kop kaffe.',
+                sentenceEn: 'I would like to drink a cup of coffee.',
+                answer: 'drikke',
+                blank: 'drikke',
+                hint: 'Modal verb + infinitive (at drikke)',
+                ruleId: 'modal-infinitive',
+                verb: 'at drikke',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q7',
+                sentence: 'Han ______ på et hospital som læge.',
+                sentenceEn: 'He works at a hospital as a doctor.',
+                answer: 'arbejder',
+                blank: 'arbejder',
+                hint: 'at arbejde (to work) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at arbejde',
+                tense: 'present'
+            },
+            {
+                id: 'q8',
+                sentence: 'De ______ i en lejlighed i København.',
+                sentenceEn: 'They live in an apartment in Copenhagen.',
+                answer: 'bor',
+                blank: 'bor',
+                hint: 'at bo (to live) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at bo',
+                tense: 'present'
+            },
+            {
+                id: 'q9',
+                sentence: 'Maria skal ______ sine børn fra skolen.',
+                sentenceEn: 'Maria must pick up her children from school.',
+                answer: 'hente',
+                blank: 'hente',
+                hint: 'Modal verb + infinitive (at hente)',
+                ruleId: 'modal-infinitive',
+                verb: 'at hente',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q10',
+                sentence: 'Vi ______ avisen om morgenen.',
+                sentenceEn: 'We read the newspaper in the morning.',
+                answer: 'læser',
+                blank: 'læser',
+                hint: 'at læse (to read) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at læse',
+                tense: 'present'
+            },
+        ]
+    },
+    {
+        id: 'pd2-2023-sommer-laese2',
+        year: 2023,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 2',
+        typeEn: 'Reading Comprehension 2',
+        level: 'PD2',
+        lesson: {
+            title: 'Fritidsaktiviteter og hobbyer',
+            titleEn: 'Leisure Activities and Hobbies',
+            topics: ['past-tense-group1', 'past-tense-group2'],
+            content: `This section focuses on leisure time and hobbies. You will practice past tense forms.
+
+KEY GRAMMAR:
+• Group 1 past tense: -ede (spillede, cyklede)
+• Group 2 past tense: -te (læste, købte, spiste)
+• Time markers for past: i går (yesterday), sidste uge (last week), i weekenden
+
+KEY VOCABULARY:
+• sport: fodbold (football), svømning (swimming), løb (running)
+• musik: klaver (piano), guitar, sang (song)
+• kunst: male (paint), tegne (draw), skrive (write)`
+        },
+        questions: [
+            {
+                id: 'q1',
+                sentence: 'I går ______ vi fodbold i parken.',
+                sentenceEn: 'Yesterday we played football in the park.',
+                answer: 'spillede',
+                blank: 'spillede',
+                hint: 'at spille (to play) — past tense, Group 1',
+                ruleId: 'past-tense-group1',
+                verb: 'at spille',
+                tense: 'past'
+            },
+            {
+                id: 'q2',
+                sentence: 'Min søster ______ en god bog i weekenden.',
+                sentenceEn: 'My sister read a good book at the weekend.',
+                answer: 'læste',
+                blank: 'læste',
+                hint: 'at læse (to read) — past tense, Group 2',
+                ruleId: 'past-tense-group2',
+                verb: 'at læse',
+                tense: 'past'
+            },
+            {
+                id: 'q3',
+                sentence: 'Børnene ______ til musik i går aftes.',
+                sentenceEn: 'The children listened to music yesterday evening.',
+                answer: 'hørte',
+                blank: 'hørte',
+                hint: 'at høre (to hear/listen) — past tense',
+                ruleId: 'past-tense-group1',
+                verb: 'at høre',
+                tense: 'past'
+            },
+            {
+                id: 'q4',
+                sentence: 'Vi ______ middag kl. 18 i går.',
+                sentenceEn: 'We ate dinner at 18 yesterday.',
+                answer: 'spiste',
+                blank: 'spiste',
+                hint: 'at spise (to eat) — past tense, Group 2',
+                ruleId: 'past-tense-group2',
+                verb: 'at spise',
+                tense: 'past'
+            },
+            {
+                id: 'q5',
+                sentence: 'Peter ______ til Frankrig sidste sommer.',
+                sentenceEn: 'Peter traveled to France last summer.',
+                answer: 'rejste',
+                blank: 'rejste',
+                hint: 'at rejse (to travel) — past tense',
+                ruleId: 'past-tense-group1',
+                verb: 'at rejse',
+                tense: 'past'
+            },
+            {
+                id: 'q6',
+                sentence: 'Jeg ______ en ny computer i sidste uge.',
+                sentenceEn: 'I bought a new computer last week.',
+                answer: 'købte',
+                blank: 'købte',
+                hint: 'at købe (to buy) — past tense, Group 2',
+                ruleId: 'past-tense-group2',
+                verb: 'at købe',
+                tense: 'past'
+            },
+            {
+                id: 'q7',
+                sentence: 'Vi ______ en film i biografen i fredags.',
+                sentenceEn: 'We watched a movie at the cinema on Friday.',
+                answer: 'så',
+                blank: 'så',
+                hint: 'at se (to see) — past tense, Irregular',
+                ruleId: 'past-tense-group3',
+                verb: 'at se',
+                tense: 'past'
+            },
+            {
+                id: 'q8',
+                sentence: 'Hun ______ klaver i tre timer.',
+                sentenceEn: 'She played piano for three hours.',
+                answer: 'spillede',
+                blank: 'spillede',
+                hint: 'at spille (to play) — past tense, Group 1',
+                ruleId: 'past-tense-group1',
+                verb: 'at spille',
+                tense: 'past'
+            },
+        ]
+    },
+    // ============ 2022 ============
+    {
+        id: 'pd2-2022-sommer-laese1',
+        year: 2022,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Sundhed og krop',
+            titleEn: 'Health and Body',
+            topics: ['present-tense-r', 'modal-infinitive'],
+            content: `Learn vocabulary related to health, the body, and visiting the doctor.
+
+KEY GRAMMAR:
+• Present tense: verb + -r (spiser, drikker, motionerer)
+• Modal verbs: skal, bør, kan + infinitive WITHOUT "at"
+
+KEY VOCABULARY:
+• krop (body), hoved (head), mave (stomach), ryg (back)
+• læge (doctor), apotek (pharmacy), medicin (medicine)
+• sund (healthy), syg (sick), træt (tired)`
+        },
+        questions: [
+            {
+                id: 'q1',
+                sentence: 'Lægen ______ at du skal hvile dig.',
+                sentenceEn: 'The doctor says that you should rest.',
+                answer: 'siger',
+                blank: 'siger',
+                hint: 'at sige (to say) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at sige',
+                tense: 'present'
+            },
+            {
+                id: 'q2',
+                sentence: 'Du bør ______ mere vand hver dag.',
+                sentenceEn: 'You should drink more water every day.',
+                answer: 'drikke',
+                blank: 'drikke',
+                hint: 'Modal verb + infinitive (at drikke)',
+                ruleId: 'modal-infinitive',
+                verb: 'at drikke',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q3',
+                sentence: 'Vi ______ til svømning hver tirsdag.',
+                sentenceEn: 'We go swimming every Tuesday.',
+                answer: 'går',
+                blank: 'går',
+                hint: 'at gå (to go) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at gå',
+                tense: 'present'
+            },
+            {
+                id: 'q4',
+                sentence: 'Man kan ______ medicin på apoteket.',
+                sentenceEn: 'One can buy medicine at the pharmacy.',
+                answer: 'købe',
+                blank: 'købe',
+                hint: 'Modal verb + infinitive (at købe)',
+                ruleId: 'modal-infinitive',
+                verb: 'at købe',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q5',
+                sentence: 'Mange danskere ______ cykel til arbejde.',
+                sentenceEn: 'Many Danes ride bicycle to work.',
+                answer: 'cykler',
+                blank: 'cykler',
+                hint: 'at cykle (to cycle) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at cykle',
+                tense: 'present'
+            },
+            {
+                id: 'q6',
+                sentence: 'Børn skal ______ mindst 8 timer hver nat.',
+                sentenceEn: 'Children must sleep at least 8 hours every night.',
+                answer: 'sove',
+                blank: 'sove',
+                hint: 'Modal verb + infinitive (at sove)',
+                ruleId: 'modal-infinitive',
+                verb: 'at sove',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q7',
+                sentence: 'Min mormor ______ 80 år gammel.',
+                sentenceEn: 'My grandmother is 80 years old.',
+                answer: 'er',
+                blank: 'er',
+                hint: 'at være (to be) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at være',
+                tense: 'present'
+            },
+            {
+                id: 'q8',
+                sentence: 'Han ______ ikke godt i dag. Han har feber.',
+                sentenceEn: 'He does not feel well today. He has a fever.',
+                answer: 'har',
+                blank: 'har',
+                hint: 'at have (to have) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at have',
+                tense: 'present'
+            },
+        ]
+    },
+    {
+        id: 'pd2-2022-vinter-laese1',
+        year: 2022,
+        season: 'Vinter',
+        seasonEn: 'Winter',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Bolig og hjem',
+            titleEn: 'Housing and Home',
+            topics: ['present-tense-r', 'perfect-tense'],
+            content: `This section covers vocabulary about housing, living arrangements, and moving.
+
+KEY GRAMMAR:
+• Present tense with -r
+• Perfect tense: har/er + participle (har boet, er flyttet)
+
+KEY VOCABULARY:
+• lejlighed (apartment), hus (house), værelse (room)
+• leje (rent), købe (buy), flytte (move)
+• møbler: sofa, bord (table), stol (chair), seng (bed)`
+        },
+        questions: [
+            {
+                id: 'q1',
+                sentence: 'Vi har ______ i denne lejlighed i fem år.',
+                sentenceEn: 'We have lived in this apartment for five years.',
+                answer: 'boet',
+                blank: 'boet',
+                hint: 'at bo (to live) — perfect tense (har + -et)',
+                ruleId: 'perfect-tense',
+                verb: 'at bo',
+                tense: 'perfect'
+            },
+            {
+                id: 'q2',
+                sentence: 'De er ______ til en ny by.',
+                sentenceEn: 'They have moved to a new city.',
+                answer: 'flyttet',
+                blank: 'flyttet',
+                hint: 'at flytte (to move) — perfect tense (er + -et)',
+                ruleId: 'perfect-tense',
+                verb: 'at flytte',
+                tense: 'perfect'
+            },
+            {
+                id: 'q3',
+                sentence: 'Lejligheden ______ 8.000 kr. om måneden.',
+                sentenceEn: 'The apartment costs 8,000 kr. per month.',
+                answer: 'koster',
+                blank: 'koster',
+                hint: 'at koste (to cost) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at koste',
+                tense: 'present'
+            },
+            {
+                id: 'q4',
+                sentence: 'Han har ______ nye møbler til stuen.',
+                sentenceEn: 'He has bought new furniture for the living room.',
+                answer: 'købt',
+                blank: 'købt',
+                hint: 'at købe (to buy) — perfect tense (har + -t)',
+                ruleId: 'perfect-tense',
+                verb: 'at købe',
+                tense: 'perfect'
+            },
+            {
+                id: 'q5',
+                sentence: 'Vi ______ i en lille by uden for København.',
+                sentenceEn: 'We live in a small town outside Copenhagen.',
+                answer: 'bor',
+                blank: 'bor',
+                hint: 'at bo (to live) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at bo',
+                tense: 'present'
+            },
+            {
+                id: 'q6',
+                sentence: 'Hun har ______ en lækker aftensmad.',
+                sentenceEn: 'She has made a delicious dinner.',
+                answer: 'lavet',
+                blank: 'lavet',
+                hint: 'at lave (to make) — perfect tense (har + -et)',
+                ruleId: 'perfect-tense',
+                verb: 'at lave',
+                tense: 'perfect'
+            },
+            {
+                id: 'q7',
+                sentence: 'Hvor mange værelser ______ der i jeres hus?',
+                sentenceEn: 'How many rooms are there in your house?',
+                answer: 'er',
+                blank: 'er',
+                hint: 'at være (to be) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at være',
+                tense: 'present'
+            },
+            {
+                id: 'q8',
+                sentence: 'Vi har ______ et nyt køkken.',
+                sentenceEn: 'We have gotten a new kitchen.',
+                answer: 'fået',
+                blank: 'fået',
+                hint: 'at få (to get) — perfect tense, irregular',
+                ruleId: 'perfect-tense',
+                verb: 'at få',
+                tense: 'perfect'
+            },
+        ]
+    },
+    // ============ 2021 ============
+    {
+        id: 'pd2-2021-sommer-laese1',
+        year: 2021,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Arbejde og uddannelse',
+            titleEn: 'Work and Education',
+            topics: ['present-tense-r', 'modal-infinitive', 'word-order-v2'],
+            content: `Learn about employment and education in Danish society. Focus on V2 word order.
+
+KEY GRAMMAR:
+• V2 word order: the verb must be second element
+• Inversion: I morgen arbejder jeg (not: I morgen jeg arbejder)
+• Modal verbs for work context: skal, kan, vil + infinitive
+
+KEY VOCABULARY:
+• job (job), arbejde (work), kontor (office), fabrik (factory)
+• uddannelse (education), skole (school), universitet (university)
+• lønning (salary), ferie (holiday), kollega (colleague)`
+        },
+        questions: [
+            {
+                id: 'q1',
+                sentence: 'Hver dag ______ hun på kontoret kl. 8.',
+                sentenceEn: 'Every day she arrives at the office at 8.',
+                answer: 'kommer',
+                blank: 'kommer',
+                hint: 'at komme (to come/arrive) — V2 word order!',
+                ruleId: 'word-order-v2',
+                verb: 'at komme',
+                tense: 'present'
+            },
+            {
+                id: 'q2',
+                sentence: 'Jeg ______ som lærer på en folkeskole.',
+                sentenceEn: 'I work as a teacher at a public school.',
+                answer: 'arbejder',
+                blank: 'arbejder',
+                hint: 'at arbejde (to work) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at arbejde',
+                tense: 'present'
+            },
+            {
+                id: 'q3',
+                sentence: 'Han vil gerne ______ ingeniør.',
+                sentenceEn: 'He would like to become an engineer.',
+                answer: 'blive',
+                blank: 'blive',
+                hint: 'Modal verb + infinitive (at blive)',
+                ruleId: 'modal-infinitive',
+                verb: 'at blive',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q4',
+                sentence: 'Næste år ______ vi til en ny afdeling.',
+                sentenceEn: 'Next year we move to a new department.',
+                answer: 'flytter',
+                blank: 'flytter',
+                hint: 'V2: Time expression first → verb second',
+                ruleId: 'word-order-v2',
+                verb: 'at flytte',
+                tense: 'present'
+            },
+            {
+                id: 'q5',
+                sentence: 'Mine kolleger ______ meget venlige.',
+                sentenceEn: 'My colleagues are very friendly.',
+                answer: 'er',
+                blank: 'er',
+                hint: 'at være (to be) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at være',
+                tense: 'present'
+            },
+            {
+                id: 'q6',
+                sentence: 'Du skal ______ din ansøgning inden fredag.',
+                sentenceEn: 'You must send your application before Friday.',
+                answer: 'sende',
+                blank: 'sende',
+                hint: 'Modal verb + infinitive (at sende)',
+                ruleId: 'modal-infinitive',
+                verb: 'at sende',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q7',
+                sentence: 'Desværre ______ jeg ikke i morgen.',
+                sentenceEn: 'Unfortunately I cannot (come) tomorrow.',
+                answer: 'kan',
+                blank: 'kan',
+                hint: 'V2: Adverb first → modal verb second',
+                ruleId: 'word-order-v2',
+                verb: 'at kunne',
+                tense: 'present'
+            },
+            {
+                id: 'q8',
+                sentence: 'Hun ______ dansk på et sprogcenter.',
+                sentenceEn: 'She studies Danish at a language center.',
+                answer: 'studerer',
+                blank: 'studerer',
+                hint: 'at studere (to study) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at studere',
+                tense: 'present'
+            },
+        ]
+    },
+    // ============ 2020 ============
+    {
+        id: 'pd2-2020-sommer-laese1',
+        year: 2020,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Familie og relationer',
+            titleEn: 'Family and Relationships',
+            topics: ['present-tense-r', 'past-tense-group1'],
+            content: `Learn family vocabulary and practice talking about your family.
+
+KEY GRAMMAR:
+• Present tense for descriptions: Min far hedder... (My father is called...)
+• Past tense (Group 1): for telling family stories
+
+KEY VOCABULARY:
+• far (father), mor (mother), bror (brother), søster (sister)
+• bedsteforældre (grandparents), onkel (uncle), tante (aunt)
+• gift (married), skilt (divorced), single (single)`
+        },
+        questions: [
+            {
+                id: 'q1',
+                sentence: 'Min far ______ Anders og min mor hedder Lone.',
+                sentenceEn: 'My father is called Anders and my mother is called Lone.',
+                answer: 'hedder',
+                blank: 'hedder',
+                hint: 'at hedde (to be called) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at hedde',
+                tense: 'present'
+            },
+            {
+                id: 'q2',
+                sentence: 'Vi ______ til storfamiliens fest i weekenden.',
+                sentenceEn: 'We traveled to the extended family party at the weekend.',
+                answer: 'rejste',
+                blank: 'rejste',
+                hint: 'at rejse (to travel) — past tense',
+                ruleId: 'past-tense-group1',
+                verb: 'at rejse',
+                tense: 'past'
+            },
+            {
+                id: 'q3',
+                sentence: 'Mine forældre ______ gift i 1990.',
+                sentenceEn: 'My parents got married in 1990.',
+                answer: 'blev',
+                blank: 'blev',
+                hint: 'at blive (to become) — past tense, irregular',
+                ruleId: 'past-tense-group3',
+                verb: 'at blive',
+                tense: 'past'
+            },
+            {
+                id: 'q4',
+                sentence: 'Min søster ______ to børn, en dreng og en pige.',
+                sentenceEn: 'My sister has two children, a boy and a girl.',
+                answer: 'har',
+                blank: 'har',
+                hint: 'at have (to have) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at have',
+                tense: 'present'
+            },
+            {
+                id: 'q5',
+                sentence: 'Bedsteforældrene ______ os hver weekend.',
+                sentenceEn: 'The grandparents visited us every weekend.',
+                answer: 'besøgte',
+                blank: 'besøgte',
+                hint: 'at besøge (to visit) — past tense, Group 2',
+                ruleId: 'past-tense-group2',
+                verb: 'at besøge',
+                tense: 'past'
+            },
+            {
+                id: 'q6',
+                sentence: 'Vi ______ en stor familie med mange fætre og kusiner.',
+                sentenceEn: 'We are a big family with many cousins.',
+                answer: 'er',
+                blank: 'er',
+                hint: 'at være (to be) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at være',
+                tense: 'present'
+            },
+            {
+                id: 'q7',
+                sentence: 'Min bror ______ i London nu.',
+                sentenceEn: 'My brother lives in London now.',
+                answer: 'bor',
+                blank: 'bor',
+                hint: 'at bo (to live) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at bo',
+                tense: 'present'
+            },
+            {
+                id: 'q8',
+                sentence: 'Hele familien ______ middag sammen i søndags.',
+                sentenceEn: 'The whole family ate dinner together last Sunday.',
+                answer: 'spiste',
+                blank: 'spiste',
+                hint: 'at spise (to eat) — past tense, Group 2',
+                ruleId: 'past-tense-group2',
+                verb: 'at spise',
+                tense: 'past'
+            },
+        ]
+    },
+    // ============ 2019 ============
+    {
+        id: 'pd2-2019-sommer-laese1',
+        year: 2019,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Transport og rejser',
+            titleEn: 'Transport and Travel',
+            topics: ['past-tense-group2', 'past-tense-group3', 'perfect-tense'],
+            content: `This exam covers transport and travel in Denmark. Practice past and perfect tenses.
+
+KEY GRAMMAR:
+• Past tense for telling about trips
+• Perfect tense for experiences: "Har du været i..."
+• Irregular verbs: gik, tog, kørte
+
+KEY VOCABULARY:
+• bus, tog (train), fly (airplane), færge (ferry)
+• billet (ticket), station, lufthavn (airport)
+• at rejse (travel), at flyve (fly), at køre (drive)`
+        },
+        questions: [
+            {
+                id: 'q1',
+                sentence: 'Vi ______ toget kl. 7.30 fra København.',
+                sentenceEn: 'We took the train at 7:30 from Copenhagen.',
+                answer: 'tog',
+                blank: 'tog',
+                hint: 'at tage (to take) — past tense, irregular',
+                ruleId: 'past-tense-group3',
+                verb: 'at tage',
+                tense: 'past'
+            },
+            {
+                id: 'q2',
+                sentence: 'Har du nogensinde ______ til Japan?',
+                sentenceEn: 'Have you ever been to Japan?',
+                answer: 'været',
+                blank: 'været',
+                hint: 'at være (to be) — perfect tense, irregular',
+                ruleId: 'perfect-tense',
+                verb: 'at være',
+                tense: 'perfect'
+            },
+            {
+                id: 'q3',
+                sentence: 'Sidste sommer ______ vi til Spanien.',
+                sentenceEn: 'Last summer we flew to Spain.',
+                answer: 'fløj',
+                blank: 'fløj',
+                hint: 'at flyve (to fly) — past tense, irregular',
+                ruleId: 'past-tense-group3',
+                verb: 'at flyve',
+                tense: 'past'
+            },
+            {
+                id: 'q4',
+                sentence: 'Hun har ______ rundt i hele Europa.',
+                sentenceEn: 'She has traveled around all of Europe.',
+                answer: 'rejst',
+                blank: 'rejst',
+                hint: 'at rejse (to travel) — perfect tense',
+                ruleId: 'perfect-tense',
+                verb: 'at rejse',
+                tense: 'perfect'
+            },
+            {
+                id: 'q5',
+                sentence: 'De ______ en billet på internettet.',
+                sentenceEn: 'They bought a ticket on the internet.',
+                answer: 'købte',
+                blank: 'købte',
+                hint: 'at købe (to buy) — past tense, Group 2',
+                ruleId: 'past-tense-group2',
+                verb: 'at købe',
+                tense: 'past'
+            },
+            {
+                id: 'q6',
+                sentence: 'Vi ______ hjem kl. 22 i går.',
+                sentenceEn: 'We came home at 22 yesterday.',
+                answer: 'kom',
+                blank: 'kom',
+                hint: 'at komme (to come) — past tense, irregular',
+                ruleId: 'past-tense-group3',
+                verb: 'at komme',
+                tense: 'past'
+            },
+            {
+                id: 'q7',
+                sentence: 'Han har ______ en fantastisk ferie.',
+                sentenceEn: 'He has had a fantastic holiday.',
+                answer: 'haft',
+                blank: 'haft',
+                hint: 'at have (to have) — perfect tense, irregular',
+                ruleId: 'perfect-tense',
+                verb: 'at have',
+                tense: 'perfect'
+            },
+            {
+                id: 'q8',
+                sentence: 'Toget ______ fra spor 3.',
+                sentenceEn: 'The train departed from track 3.',
+                answer: 'kørte',
+                blank: 'kørte',
+                hint: 'at køre (to drive/depart) — past tense',
+                ruleId: 'past-tense-group2',
+                verb: 'at køre',
+                tense: 'past'
+            },
+        ]
+    },
+    // ============ 2018 ============
+    {
+        id: 'pd2-2018-sommer-laese1',
+        year: 2018,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Mad og indkøb',
+            titleEn: 'Food and Shopping',
+            topics: ['present-tense-r', 'modal-infinitive'],
+            content: `Shop and cook in Danish! This section covers food vocabulary and shopping expressions.
+
+KEY GRAMMAR:
+• Present tense for habits: Jeg spiser... Jeg handler...
+• Modal verbs in shopping: Jeg vil gerne have... Kan jeg få...
+
+KEY VOCABULARY:
+• supermarked (supermarket), bageri (bakery), slagter (butcher)
+• brød (bread), mælk (milk), ost (cheese), frugt (fruit), grøntsager (vegetables)
+• billig (cheap), dyr (expensive), tilbud (offer/sale)`
+        },
+        questions: [
+            {
+                id: 'q1',
+                sentence: 'Vi ______ ind i supermarkedet hver lørdag.',
+                sentenceEn: 'We shop at the supermarket every Saturday.',
+                answer: 'handler',
+                blank: 'handler',
+                hint: 'at handle (to shop) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at handle',
+                tense: 'present'
+            },
+            {
+                id: 'q2',
+                sentence: 'Kan jeg ______ et kilo æbler?',
+                sentenceEn: 'Can I get a kilo of apples?',
+                answer: 'få',
+                blank: 'få',
+                hint: 'Modal verb + infinitive (at få)',
+                ruleId: 'modal-infinitive',
+                verb: 'at få',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q3',
+                sentence: 'Hun ______ altid økologisk mælk.',
+                sentenceEn: 'She always buys organic milk.',
+                answer: 'køber',
+                blank: 'køber',
+                hint: 'at købe (to buy) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at købe',
+                tense: 'present'
+            },
+            {
+                id: 'q4',
+                sentence: 'Jeg vil gerne ______ en kage til dessert.',
+                sentenceEn: 'I would like to make a cake for dessert.',
+                answer: 'lave',
+                blank: 'lave',
+                hint: 'Modal verb + infinitive (at lave)',
+                ruleId: 'modal-infinitive',
+                verb: 'at lave',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q5',
+                sentence: 'Brødet ______ 25 kroner.',
+                sentenceEn: 'The bread costs 25 kroner.',
+                answer: 'koster',
+                blank: 'koster',
+                hint: 'at koste (to cost) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at koste',
+                tense: 'present'
+            },
+            {
+                id: 'q6',
+                sentence: 'De ______ frikadeller og kartofler til aftensmad.',
+                sentenceEn: 'They eat meatballs and potatoes for dinner.',
+                answer: 'spiser',
+                blank: 'spiser',
+                hint: 'at spise (to eat) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at spise',
+                tense: 'present'
+            },
+            {
+                id: 'q7',
+                sentence: 'Må jeg ______ en pose?',
+                sentenceEn: 'May I get a bag?',
+                answer: 'få',
+                blank: 'få',
+                hint: 'Modal verb + infinitive (at få)',
+                ruleId: 'modal-infinitive',
+                verb: 'at få',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q8',
+                sentence: 'Vi ______ til bageren for at købe rundstykker.',
+                sentenceEn: 'We go to the bakery to buy bread rolls.',
+                answer: 'går',
+                blank: 'går',
+                hint: 'at gå (to go) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at gå',
+                tense: 'present'
+            },
+        ]
+    },
+    // ============ SKRIFTLIG EXAMS ============
+    {
+        id: 'pd2-2023-sommer-skriftlig',
+        year: 2023,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Skriftlig fremstilling',
+        typeEn: 'Written Composition',
+        level: 'PD2',
+        lesson: {
+            title: 'Skriftlig fremstilling — at skrive en email',
+            titleEn: 'Written Composition — Writing an Email',
+            topics: ['word-order-v2', 'present-tense-r'],
+            content: `Practice writing formal and informal emails in Danish.
+
+STRUCTURE OF A DANISH EMAIL:
+• Kære [Name] (Dear) — formal, or Hej [Name] — informal
+• Introduction: state why you are writing
+• Body: give details
+• Closing: Med venlig hilsen (Kind regards) — formal
+
+KEY PHRASES:
+• Jeg skriver til dig, fordi... (I am writing to you because...)
+• Jeg vil gerne spørge om... (I would like to ask about...)
+• Tak for din besked (Thanks for your message)
+• Jeg ser frem til at høre fra dig (I look forward to hearing from you)`
+        },
+        questions: [
+            {
+                id: 'q1',
+                sentence: 'Kære Anna, jeg ______ til dig, fordi jeg har et spørgsmål.',
+                sentenceEn: 'Dear Anna, I write to you because I have a question.',
+                answer: 'skriver',
+                blank: 'skriver',
+                hint: 'at skrive (to write) — present tense',
+                ruleId: 'present-tense-r',
+                verb: 'at skrive',
+                tense: 'present'
+            },
+            {
+                id: 'q2',
+                sentence: 'Jeg vil gerne ______ om jeres åbningstider.',
+                sentenceEn: 'I would like to ask about your opening hours.',
+                answer: 'spørge',
+                blank: 'spørge',
+                hint: 'Modal verb + infinitive (at spørge)',
+                ruleId: 'modal-infinitive',
+                verb: 'at spørge',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q3',
+                sentence: 'I sidste uge ______ jeg en ansøgning til jer.',
+                sentenceEn: 'Last week I sent an application to you.',
+                answer: 'sendte',
+                blank: 'sendte',
+                hint: 'V2: Time first → verb second (at sende)',
+                ruleId: 'word-order-v2',
+                verb: 'at sende',
+                tense: 'past'
+            },
+            {
+                id: 'q4',
+                sentence: 'Kan du ______ mig, hvornår kurset begynder?',
+                sentenceEn: 'Can you tell me when the course starts?',
+                answer: 'fortælle',
+                blank: 'fortælle',
+                hint: 'Modal verb + infinitive (at fortælle)',
+                ruleId: 'modal-infinitive',
+                verb: 'at fortælle',
+                tense: 'infinitive'
+            },
+            {
+                id: 'q5',
+                sentence: 'Jeg ______ frem til at høre fra dig.',
+                sentenceEn: 'I look forward to hearing from you.',
+                answer: 'ser',
+                blank: 'ser',
+                hint: 'at se (to see) — present tense (idiom: ser frem til)',
+                ruleId: 'present-tense-r',
+                verb: 'at se',
+                tense: 'present'
+            },
+            {
+                id: 'q6',
+                sentence: 'Tak, fordi du har ______ mig.',
+                sentenceEn: 'Thanks for helping me.',
+                answer: 'hjulpet',
+                blank: 'hjulpet',
+                hint: 'at hjælpe (to help) — perfect tense, irregular',
+                ruleId: 'perfect-tense',
+                verb: 'at hjælpe',
+                tense: 'perfect'
+            },
+        ]
+    },
+];
+
+// Get all unique years
+export function getPd2Years() {
+    return [...new Set(pd2Exams.map(e => e.year))].sort((a, b) => b - a);
+}
+
+// Get exams by year
+export function getPd2ExamsByYear(year) {
+    return pd2Exams.filter(e => e.year === year);
+}
+
+// Get exam by ID
+export function getPd2ExamById(id) {
+    return pd2Exams.find(e => e.id === id);
+}
