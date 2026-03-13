@@ -16,7 +16,7 @@ export const vocabulary = {
         { da: 'hånden', en: 'hand', emoji: '🤚', sentence: 'Vask dine hænder!', sentenceEn: 'Wash your hands!' },
         { da: 'fingrene', en: 'fingers', emoji: '🖐️', sentence: 'Vi har ti fingre.', sentenceEn: 'We have ten fingers.' },
         { da: 'maven', en: 'stomach', emoji: '🤰', sentence: 'Jeg har ondt i maven.', sentenceEn: 'I have a stomachache.' },
-        { da: 'ryggen', en: 'back', emoji: '🧘', sentence: 'Min ryg gør ondt.', sentenceEn: 'My back hurts.' },
+        { da: 'ryggen', en: 'back', emoji: '🧍', sentence: 'Min ryg gør ondt.', sentenceEn: 'My back hurts.' },
         { da: 'numsen', en: 'buttock/butt', emoji: '🪑', sentence: 'Sæt dig ned på numsen.', sentenceEn: 'Sit down on your butt.' },
         { da: 'benet', en: 'leg', emoji: '🦵', sentence: 'Hun har lange ben.', sentenceEn: 'She has long legs.' },
         { da: 'knæet', en: 'knee', emoji: '🦿', sentence: 'Jeg faldt og slog mit knæ.', sentenceEn: 'I fell and hit my knee.' },
