@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, Suspense } from 'react';
+import { useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Layout from '@/components/Layout';
@@ -9,25 +9,19 @@ import { pd3Exams } from '@/data/pd3Exams';
 
 function ExamsContent() {
     const searchParams = useSearchParams();
-    const initialLevel = searchParams.get('level') || 'all';
-
-    const [levelFilter, setLevelFilter] = useState(initialLevel);
-    const [yearFilter, setYearFilter] = useState('all');
-    const [typeFilter, setTypeFilter] = useState('all');
+    const levelFromUrl = searchParams.get('level') || 'all';
 
     const allExams = useMemo(() => [...pd2Exams, ...pd3Exams], []);
 
+    // Derive filter directly from URL params so it updates on every navigation
     const filteredExams = useMemo(() => {
         return allExams.filter(e => {
-            if (levelFilter !== 'all' && e.level !== levelFilter) return false;
-            if (yearFilter !== 'all' && e.year !== parseInt(yearFilter)) return false;
-            if (typeFilter !== 'all' && !e.type.includes(typeFilter)) return false;
+            if (levelFromUrl !== 'all' && e.level !== levelFromUrl) return false;
             return true;
         });
-    }, [allExams, levelFilter, yearFilter, typeFilter]);
+    }, [allExams, levelFromUrl]);
 
     const years = [...new Set(allExams.map(e => e.year))].sort((a, b) => b - a);
-    const types = [...new Set(allExams.map(e => e.type))];
 
     const groupedByYear = {};
     filteredExams.forEach(e => {
@@ -42,63 +36,26 @@ function ExamsContent() {
                 <div className="page-breadcrumb">
                     <Link href="/">Home</Link> <span>/</span> <span>Exams</span>
                 </div>
-                <h1 className="page-title">📚 Exam Browser</h1>
+                <h1 className="page-title">📝 Practice Exams</h1>
                 <p className="page-subtitle">
-                    Browse and practice exams from PD2 and PD3 exam papers.
+                    Browse and practice exams from PD2 and PD3 exam papers ({allExams.length} total).
                     Each exam includes a pre-lesson, quiz, and intelligent feedback.
                 </p>
             </div>
 
-            {/* Filters */}
+            {/* Level Filter */}
             <div style={{ marginBottom: 32 }}>
                 <div style={{ fontSize: 13, color: 'var(--text-muted)', marginBottom: 8, fontWeight: 600, textTransform: 'uppercase', letterSpacing: 1 }}>Level</div>
                 <div className="filter-row">
                     {['all', 'PD2', 'PD3'].map(level => (
-                        <button
+                        <Link
                             key={level}
-                            className={`filter-chip ${levelFilter === level ? 'active' : ''}`}
-                            onClick={() => setLevelFilter(level)}
+                            href={level === 'all' ? '/exams' : `/exams?level=${level}`}
+                            className={`filter-chip ${levelFromUrl === level ? 'active' : ''}`}
+                            style={{ textDecoration: 'none' }}
                         >
-                            {level === 'all' ? 'All Levels' : level}
-                        </button>
-                    ))}
-                </div>
-
-                <div style={{ fontSize: 13, color: 'var(--text-muted)', marginBottom: 8, fontWeight: 600, textTransform: 'uppercase', letterSpacing: 1 }}>Year</div>
-                <div className="filter-row">
-                    <button
-                        className={`filter-chip ${yearFilter === 'all' ? 'active' : ''}`}
-                        onClick={() => setYearFilter('all')}
-                    >
-                        All Years
-                    </button>
-                    {years.map(year => (
-                        <button
-                            key={year}
-                            className={`filter-chip ${yearFilter === String(year) ? 'active' : ''}`}
-                            onClick={() => setYearFilter(String(year))}
-                        >
-                            {year}
-                        </button>
-                    ))}
-                </div>
-
-                <div style={{ fontSize: 13, color: 'var(--text-muted)', marginBottom: 8, fontWeight: 600, textTransform: 'uppercase', letterSpacing: 1 }}>Type</div>
-                <div className="filter-row">
-                    <button
-                        className={`filter-chip ${typeFilter === 'all' ? 'active' : ''}`}
-                        onClick={() => setTypeFilter('all')}
-                    >
-                        All Types
-                    </button>
-                    {types.map(type => (
-                        <button
-                            key={type}
-                            className={`filter-chip ${typeFilter === type ? 'active' : ''}`}
-                            onClick={() => setTypeFilter(type)}
-                        >
-                            {type}
-                        </button>
+                            {level === 'all' ? `All Levels (${allExams.length})` : `${level} (${allExams.filter(e => e.level === level).length})`}
+                        </Link>
                     ))}
                 </div>
             </div>
@@ -112,6 +69,9 @@ function ExamsContent() {
                 <div key={year} style={{ marginBottom: 32 }}>
                     <h2 style={{ fontSize: 18, fontWeight: 700, marginBottom: 16, display: 'flex', alignItems: 'center', gap: 8 }}>
                         <span style={{ color: 'var(--accent-cyan)' }}>{year}</span>
+                        <span style={{ fontSize: 13, color: 'var(--text-muted)', fontWeight: 400 }}>
+                            ({groupedByYear[year].length} exams)
+                        </span>
                     </h2>
                     <div className="card-grid">
                         {groupedByYear[year].map(exam => (
@@ -144,7 +104,7 @@ function ExamsContent() {
             {filteredExams.length === 0 && (
                 <div style={{ textAlign: 'center', padding: 60, color: 'var(--text-muted)' }}>
                     <div style={{ fontSize: 48, marginBottom: 16 }}>🔍</div>
-                    <div style={{ fontSize: 16 }}>No exams match your filters. Try adjusting the filters above.</div>
+                    <div style={{ fontSize: 16 }}>No exams match your filter.</div>
                 </div>
             )}
         </>

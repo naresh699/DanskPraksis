@@ -14,6 +14,7 @@ const categories = [
     { key: 'colors', label: '🎨 Colors (Farver)', hasEmoji: true },
     { key: 'months', label: '📅 Months (Måneder)', hasEmoji: true },
     { key: 'days', label: '📆 Days (Ugedage)', hasEmoji: true },
+    { key: 'holidays', label: '🎉 Holidays (Helligdage)', hasEmoji: true },
     { key: 'time', label: '🕐 Time (Klokken)', hasEmoji: true },
     { key: 'adjectives', label: '📝 Adjectives', hasEmoji: true },
     { key: 'dailyPhrases', label: '💬 Daily Phrases', hasEmoji: true },
@@ -82,11 +83,11 @@ export default function VocabularyPage() {
             {activeCategory?.hasEmoji && !search ? (
                 <div className="visual-grid">
                     {filteredItems.map((item, i) => (
-                        <div key={i} className="visual-item">
+                        <div key={i} className="visual-item" title={item.sentence || ''}>
                             {item.emoji && <span className="visual-emoji">{item.emoji}</span>}
                             <span className="visual-da">{item.da}</span>
                             <span className="visual-en">{item.en}</span>
-                            <SpeechButton text={item.da} size="small" />
+                            <SpeechButton text={item.sentence || item.da} size="small" />
                         </div>
                     ))}
                 </div>
@@ -113,6 +114,22 @@ export default function VocabularyPage() {
                             ))}
                         </tbody>
                     </table>
+                </div>
+            )}
+
+            {/* Example sentences section */}
+            {activeCategory?.hasEmoji && filteredItems.some(i => i.sentence) && (
+                <div className="lesson-card" style={{ marginTop: 24 }}>
+                    <h2>📝 Example Sentences</h2>
+                    <p className="lesson-subtitle" style={{ marginBottom: 16 }}>How to use these words in real sentences</p>
+                    {filteredItems.filter(item => item.sentence).map((item, i) => (
+                        <div key={i} className="lesson-example">
+                            <SpeechButton text={item.sentence} size="small" />
+                            <span className="visual-emoji" style={{ fontSize: 20 }}>{item.emoji}</span>
+                            <span className="lesson-example-da">{item.sentence}</span>
+                            <span className="lesson-example-en">{item.sentenceEn}</span>
+                        </div>
+                    ))}
                 </div>
             )}
 

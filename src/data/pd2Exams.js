@@ -1042,6 +1042,207 @@ KEY PHRASES:
             },
         ]
     },
+    // ============ 2017 ============
+    {
+        id: 'pd2-2017-sommer-laese1',
+        year: 2017,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Vejret og årstiderne',
+            titleEn: 'Weather and Seasons',
+            topics: ['present-tense-r', 'past-tense-group1'],
+            content: `Learn about weather and seasons in Denmark.
+
+KEY GRAMMAR:
+• Present tense for current weather: Det regner. Solen skinner.
+• Past tense for telling about past weather
+
+KEY VOCABULARY:
+• vejr (weather), sol (sun), regn (rain), sne (snow), vind (wind)
+• forår (spring), sommer (summer), efterår (autumn), vinter (winter)
+• varmt (warm), koldt (cold), overskyet (overcast)`
+        },
+        questions: [
+            { id: 'q1', sentence: 'I dag ______ solen, og det er 20 grader.', sentenceEn: 'Today the sun shines and it is 20 degrees.', answer: 'skinner', blank: 'skinner', hint: 'at skinne (to shine) — present tense', ruleId: 'present-tense-r', verb: 'at skinne', tense: 'present' },
+            { id: 'q2', sentence: 'I går ______ det hele dagen.', sentenceEn: 'Yesterday it rained all day.', answer: 'regnede', blank: 'regnede', hint: 'at regne (to rain) — past tense, Group 1', ruleId: 'past-tense-group1', verb: 'at regne', tense: 'past' },
+            { id: 'q3', sentence: 'Om vinteren ______ det tit i Danmark.', sentenceEn: 'In winter it snows often in Denmark.', answer: 'sner', blank: 'sner', hint: 'at sne (to snow) — present tense', ruleId: 'present-tense-r', verb: 'at sne', tense: 'present' },
+            { id: 'q4', sentence: 'Det ______ meget i storm i forgårs.', sentenceEn: 'It blew a lot during the storm the day before yesterday.', answer: 'blæste', blank: 'blæste', hint: 'at blæse (to blow) — past tense', ruleId: 'past-tense-group1', verb: 'at blæse', tense: 'past' },
+            { id: 'q5', sentence: 'Temperaturen ______ 15 grader i dag.', sentenceEn: 'The temperature is 15 degrees today.', answer: 'er', blank: 'er', hint: 'at være (to be) — present', ruleId: 'present-tense-r', verb: 'at være', tense: 'present' },
+            { id: 'q6', sentence: 'Vi ______ paraply med, fordi det regner.', sentenceEn: 'We bring an umbrella because it rains.', answer: 'tager', blank: 'tager', hint: 'at tage (to take) — present tense', ruleId: 'present-tense-r', verb: 'at tage', tense: 'present' },
+            { id: 'q7', sentence: 'Foråret ______ i marts.', sentenceEn: 'Spring begins in March.', answer: 'begynder', blank: 'begynder', hint: 'at begynde (to begin) — present tense', ruleId: 'present-tense-r', verb: 'at begynde', tense: 'present' },
+            { id: 'q8', sentence: 'Det ______ tåget i morges.', sentenceEn: 'It was foggy this morning.', answer: 'var', blank: 'var', hint: 'at være (to be) — past tense', ruleId: 'past-tense-group3', verb: 'at være', tense: 'past' },
+        ]
+    },
+    {
+        id: 'pd2-2017-vinter-laese1',
+        year: 2017,
+        season: 'Vinter',
+        seasonEn: 'Winter',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Tøj og farver',
+            titleEn: 'Clothing and Colors',
+            topics: ['present-tense-r', 'modal-infinitive'],
+            content: `Learn about clothing, colors, and shopping for clothes.
+
+KEY GRAMMAR:
+• Present tense for wearing: Jeg har en jakke på.
+• Modal verbs for shopping: Kan jeg prøve...? Må jeg se...?
+
+KEY VOCABULARY:
+• trøje (sweater), bukser (trousers), jakke (jacket), sko (shoes)
+• rød (red), blå (blue), grøn (green), sort (black), hvid (white)
+• størrelse (size), passe (fit), prøverum (fitting room)`
+        },
+        questions: [
+            { id: 'q1', sentence: 'I dag ______ jeg en blå trøje på.', sentenceEn: 'Today I am wearing a blue sweater.', answer: 'har', blank: 'har', hint: 'at have (to have) — "har ... på" = wearing', ruleId: 'present-tense-r', verb: 'at have', tense: 'present' },
+            { id: 'q2', sentence: 'Kan jeg ______ denne kjole?', sentenceEn: 'Can I try on this dress?', answer: 'prøve', blank: 'prøve', hint: 'Modal verb + infinitive (at prøve)', ruleId: 'modal-infinitive', verb: 'at prøve', tense: 'infinitive' },
+            { id: 'q3', sentence: 'Jakken ______ 599 kroner.', sentenceEn: 'The jacket costs 599 kroner.', answer: 'koster', blank: 'koster', hint: 'at koste (to cost) — present tense', ruleId: 'present-tense-r', verb: 'at koste', tense: 'present' },
+            { id: 'q4', sentence: 'Bukserne ______ ikke. De er for store.', sentenceEn: 'The trousers don\'t fit. They are too big.', answer: 'passer', blank: 'passer', hint: 'at passe (to fit) — present tense', ruleId: 'present-tense-r', verb: 'at passe', tense: 'present' },
+            { id: 'q5', sentence: 'Du skal ______ varmt tøj på om vinteren.', sentenceEn: 'You must wear warm clothes in winter.', answer: 'have', blank: 'have', hint: 'Modal verb + infinitive (at have)', ruleId: 'modal-infinitive', verb: 'at have', tense: 'infinitive' },
+            { id: 'q6', sentence: 'Skoene ______ mine yndlingssko.', sentenceEn: 'The shoes are my favorite shoes.', answer: 'er', blank: 'er', hint: 'at være (to be) — present', ruleId: 'present-tense-r', verb: 'at være', tense: 'present' },
+        ]
+    },
+    // ============ 2016 ============
+    {
+        id: 'pd2-2016-sommer-laese1',
+        year: 2016,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Danmark og geografi',
+            titleEn: 'Denmark and Geography',
+            topics: ['present-tense-r', 'word-order-v2'],
+            content: `Learn about Danish geography, cities, and landmarks.
+
+KEY GRAMMAR:
+• Present tense for facts: København er hovedstaden.
+• V2 word order in descriptions
+
+KEY VOCABULARY:
+• hovedstad (capital), by (city), ø (island), halvø (peninsula)
+• Sjælland (Zealand), Jylland (Jutland), Fyn (Funen)
+• Øresundsbroen (the bridge), grænse (border), indbygger (inhabitant)`
+        },
+        questions: [
+            { id: 'q1', sentence: 'København ______ Danmarks hovedstad.', sentenceEn: 'Copenhagen is Denmark\'s capital.', answer: 'er', blank: 'er', hint: 'at være (to be) — present', ruleId: 'present-tense-r', verb: 'at være', tense: 'present' },
+            { id: 'q2', sentence: 'I Danmark ______ man dansk.', sentenceEn: 'In Denmark one speaks Danish.', answer: 'taler', blank: 'taler', hint: 'V2: prepositional phrase first → verb second', ruleId: 'word-order-v2', verb: 'at tale', tense: 'present' },
+            { id: 'q3', sentence: 'Øresundsbroen ______ København og Malmø.', sentenceEn: 'The Øresund Bridge connects Copenhagen and Malmö.', answer: 'forbinder', blank: 'forbinder', hint: 'at forbinde (to connect) — present', ruleId: 'present-tense-r', verb: 'at forbinde', tense: 'present' },
+            { id: 'q4', sentence: 'Danmark ______ cirka 5,8 millioner indbyggere.', sentenceEn: 'Denmark has about 5.8 million inhabitants.', answer: 'har', blank: 'har', hint: 'at have (to have) — present', ruleId: 'present-tense-r', verb: 'at have', tense: 'present' },
+            { id: 'q5', sentence: 'Mange turister ______ Tivoli i København.', sentenceEn: 'Many tourists visit Tivoli in Copenhagen.', answer: 'besøger', blank: 'besøger', hint: 'at besøge (to visit) — present', ruleId: 'present-tense-r', verb: 'at besøge', tense: 'present' },
+            { id: 'q6', sentence: 'H.C. Andersen ______ født i Odense.', sentenceEn: 'H.C. Andersen was born in Odense.', answer: 'blev', blank: 'blev', hint: 'at blive (to become) — past tense, passive', ruleId: 'past-tense-group3', verb: 'at blive', tense: 'past' },
+            { id: 'q7', sentence: 'Landet ______ af halvøen Jylland og mange øer.', sentenceEn: 'The country consists of the peninsula Jutland and many islands.', answer: 'består', blank: 'består', hint: 'at bestå (to consist) — present', ruleId: 'present-tense-r', verb: 'at bestå', tense: 'present' },
+        ]
+    },
+    // ============ 2015 ============
+    {
+        id: 'pd2-2015-sommer-laese1',
+        year: 2015,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Det danske samfund',
+            titleEn: 'Danish Society',
+            topics: ['present-tense-r', 'modal-infinitive', 'perfect-tense'],
+            content: `Learn about Danish society, welfare, and cultural norms.
+
+KEY GRAMMAR:
+• Present tense for describing society
+• Modal verbs for obligations: Man skal betale... Man bør...
+• Perfect tense for changes: Danmark har fået...
+
+KEY VOCABULARY:
+• velfærd (welfare), skat (tax), kommune (municipality)
+• demokrati (democracy), lov (law), rettighed (right)
+• CPR-nummer, NemID, borgerservice`
+        },
+        questions: [
+            { id: 'q1', sentence: 'Alle i Danmark ______ skat.', sentenceEn: 'Everyone in Denmark pays taxes.', answer: 'betaler', blank: 'betaler', hint: 'at betale (to pay) — present', ruleId: 'present-tense-r', verb: 'at betale', tense: 'present' },
+            { id: 'q2', sentence: 'Man skal ______ sig hos kommunen, når man flytter.', sentenceEn: 'One must register at the municipality when one moves.', answer: 'melde', blank: 'melde', hint: 'Modal + infinitive (at melde)', ruleId: 'modal-infinitive', verb: 'at melde', tense: 'infinitive' },
+            { id: 'q3', sentence: 'Danmark har ______ et af verdens bedste uddannelsessystemer.', sentenceEn: 'Denmark has gotten one of the world\'s best education systems.', answer: 'fået', blank: 'fået', hint: 'at få (to get) — perfect, irregular', ruleId: 'perfect-tense', verb: 'at få', tense: 'perfect' },
+            { id: 'q4', sentence: 'Danskerne ______ meget lid på staten.', sentenceEn: 'The Danes trust the state a lot.', answer: 'har', blank: 'har', hint: 'at have (to have) — present', ruleId: 'present-tense-r', verb: 'at have', tense: 'present' },
+            { id: 'q5', sentence: 'Alle børn kan ______ gratis i folkeskolen.', sentenceEn: 'All children can study for free in public school.', answer: 'gå', blank: 'gå', hint: 'Modal + infinitive (at gå)', ruleId: 'modal-infinitive', verb: 'at gå', tense: 'infinitive' },
+            { id: 'q6', sentence: 'Sundhedsvæsenet ______ betalt af skatten.', sentenceEn: 'The health system is paid by taxes.', answer: 'er', blank: 'er', hint: 'at være — passive voice (er + participle)', ruleId: 'present-tense-r', verb: 'at være', tense: 'present' },
+        ]
+    },
+    // ============ 2014 ============
+    {
+        id: 'pd2-2014-sommer-laese1',
+        year: 2014,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Kroppen og sundhed',
+            titleEn: 'The Body and Health',
+            topics: ['present-tense-r', 'modal-infinitive'],
+            content: `Vocabulary for body parts, health, and visiting the doctor.
+
+KEY GRAMMAR:
+• Present tense: Jeg har ondt i... Mit hoved gør ondt.
+• Modal verbs for advice: Du bør drikke vand. Du skal hvile dig.
+
+KEY VOCABULARY:
+• hoved (head), mave (stomach), ryg (back), arm, ben (leg)
+• læge (doctor), sygesikring (health insurance), apotek (pharmacy)
+• ondt (pain), feber (fever), medicin (medicine)`
+        },
+        questions: [
+            { id: 'q1', sentence: 'Jeg har ondt i ______.', sentenceEn: 'I have a headache.', answer: 'hovedet', blank: 'hovedet', hint: 'hovedet = the head (definite form)', ruleId: 'present-tense-r', verb: 'substantiv', tense: 'definite' },
+            { id: 'q2', sentence: 'Du bør ______ til lægen.', sentenceEn: 'You should go to the doctor.', answer: 'gå', blank: 'gå', hint: 'Modal + infinitive (at gå)', ruleId: 'modal-infinitive', verb: 'at gå', tense: 'infinitive' },
+            { id: 'q3', sentence: 'Hun ______ feber og ondt i halsen.', sentenceEn: 'She has a fever and sore throat.', answer: 'har', blank: 'har', hint: 'at have (to have) — present', ruleId: 'present-tense-r', verb: 'at have', tense: 'present' },
+            { id: 'q4', sentence: 'Man kan ______ medicin på apoteket.', sentenceEn: 'One can buy medicine at the pharmacy.', answer: 'købe', blank: 'købe', hint: 'Modal + infinitive (at købe)', ruleId: 'modal-infinitive', verb: 'at købe', tense: 'infinitive' },
+            { id: 'q5', sentence: 'Lægen ______ at jeg skal tage det roligt.', sentenceEn: 'The doctor says I should take it easy.', answer: 'siger', blank: 'siger', hint: 'at sige (to say) — present, irregular', ruleId: 'present-tense-r', verb: 'at sige', tense: 'present' },
+            { id: 'q6', sentence: 'Mine ben ______ efter løbeturen.', sentenceEn: 'My legs hurt after the run.', answer: 'gør ondt', blank: 'gør ondt', hint: 'at gøre ondt (to hurt) — present', ruleId: 'present-tense-r', verb: 'at gøre', tense: 'present' },
+        ]
+    },
+    // ============ 2013 ============
+    {
+        id: 'pd2-2013-sommer-laese1',
+        year: 2013,
+        season: 'Sommer',
+        seasonEn: 'Summer',
+        type: 'Læseforståelse 1',
+        typeEn: 'Reading Comprehension 1',
+        level: 'PD2',
+        lesson: {
+            title: 'Pronominer og ejefald',
+            titleEn: 'Pronouns and Possessives',
+            topics: ['present-tense-r', 'modal-infinitive'],
+            content: `Learn Danish personal pronouns and possessive forms.
+
+KEY GRAMMAR:
+• Subject pronouns: jeg, du, han, hun, vi, I, de
+• Object pronouns: mig, dig, ham, hende, os, jer, dem
+• Possessives: min/mit/mine, din/dit/dine, hans, hendes, vores
+
+KEY VOCABULARY:
+• Pronoun usage in daily conversation
+• Possessive agreement with gender (en-words vs et-words)`
+        },
+        questions: [
+            { id: 'q1', sentence: '______ hedder Lars, og jeg er fra Danmark.', sentenceEn: 'My name is Lars, and I am from Denmark.', answer: 'Jeg', blank: 'Jeg', hint: 'Subject pronoun: I = jeg', ruleId: 'present-tense-r', verb: 'pronomen', tense: 'subject' },
+            { id: 'q2', sentence: 'Kan du hjælpe ______ med denne opgave?', sentenceEn: 'Can you help me with this task?', answer: 'mig', blank: 'mig', hint: 'Object pronoun: me = mig', ruleId: 'modal-infinitive', verb: 'pronomen', tense: 'object' },
+            { id: 'q3', sentence: '______ bil er rød. (min/mit)', sentenceEn: 'My car is red.', answer: 'Min', blank: 'Min', hint: 'en bil → min bil (common gender)', ruleId: 'present-tense-r', verb: 'possessiv', tense: 'common' },
+            { id: 'q4', sentence: '______ hus er stort. (min/mit)', sentenceEn: 'My house is big.', answer: 'Mit', blank: 'Mit', hint: 'et hus → mit hus (neuter gender)', ruleId: 'present-tense-r', verb: 'possessiv', tense: 'neuter' },
+            { id: 'q5', sentence: 'Han gav ______ en gave til jul.', sentenceEn: 'He gave her a present for Christmas.', answer: 'hende', blank: 'hende', hint: 'Object pronoun: her = hende', ruleId: 'present-tense-r', verb: 'pronomen', tense: 'object' },
+            { id: 'q6', sentence: '______ børn går i skole. (vores/deres)', sentenceEn: 'Our children go to school.', answer: 'Vores', blank: 'Vores', hint: 'Possessive: our = vores', ruleId: 'present-tense-r', verb: 'possessiv', tense: 'plural' },
+        ]
+    },
 ];
 
 // Get all unique years
