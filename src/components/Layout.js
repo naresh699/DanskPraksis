@@ -64,6 +64,14 @@ function SidebarNav() {
                 PD3 — Advanced
             </Link>
 
+            <Link
+                href="/daily-life"
+                className={`sidebar-link ${pathname === '/daily-life' ? 'active' : ''}`}
+            >
+                <span className="sidebar-link-icon">🇩🇰</span>
+                Daily Life
+            </Link>
+
             {isAdmin && (
                 <div style={{ marginTop: 24 }}>
                     <div className="sidebar-section-title">⚙️ Admin Control</div>

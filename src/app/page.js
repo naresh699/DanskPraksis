@@ -132,7 +132,7 @@ export default function HomePage() {
       <h2 style={{ fontSize: 20, fontWeight: 700, marginBottom: 16 }}>🛠️ More Tools</h2>
       <div className="card-grid">
         <Link href="/vocabulary" style={{ textDecoration: 'none' }}>
-          <div className="card card-clickable">
+          <div className="card card-clickable fade-in" style={{ animationDelay: '0.4s' }}>
             <div className="card-header">
               <div className="card-icon card-icon-amber">📝</div>
               <div>
@@ -156,7 +156,7 @@ export default function HomePage() {
             <div className="card-body">Download printable practice sheets, blank exams, and verb tables for offline study.</div>
           </div>
         </Link>
-      </div>
-    </Layout>
+      </div >
+    </Layout >
   );
 }
