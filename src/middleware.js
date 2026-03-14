@@ -19,9 +19,17 @@ export function middleware(request) {
     // Check for auth cookie
     const authToken = request.cookies.get('dansk-auth-token');
 
-    if (!authToken || authToken.value !== process.env.AUTH_SECRET) {
+    if (!authToken || authToken.value !== (process.env.AUTH_SECRET || 'dansk-praksis-secret-2026')) {
         const loginUrl = new URL('/login', request.url);
         return NextResponse.redirect(loginUrl);
+    }
+
+    // Protect /admin routes
+    if (pathname.startsWith('/admin')) {
+        const roleCookie = request.cookies.get('dansk-user-role');
+        if (roleCookie?.value !== 'admin') {
+            return NextResponse.redirect(new URL('/', request.url));
+        }
     }
 
     return NextResponse.next();

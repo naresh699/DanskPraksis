@@ -84,7 +84,13 @@ export default function VocabularyPage() {
                 <div className="visual-grid">
                     {filteredItems.map((item, i) => (
                         <div key={i} className="visual-item" title={item.sentence || ''}>
-                            {item.emoji && <span className="visual-emoji">{item.emoji}</span>}
+                            {item.image ? (
+                                <div style={{ width: 64, height: 64, margin: '0 auto 8px', borderRadius: 8, overflow: 'hidden' }}>
+                                    <img src={item.image} alt={item.en} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                </div>
+                            ) : item.emoji ? (
+                                <span className="visual-emoji">{item.emoji}</span>
+                            ) : null}
                             <span className="visual-da">{item.da}</span>
                             <span className="visual-en">{item.en}</span>
                             <SpeechButton text={item.da} size="small" />
@@ -125,7 +131,11 @@ export default function VocabularyPage() {
                     {filteredItems.filter(item => item.sentence).map((item, i) => (
                         <div key={i} className="lesson-example">
                             <SpeechButton text={item.sentence} size="small" />
-                            <span className="visual-emoji" style={{ fontSize: 20 }}>{item.emoji}</span>
+                            {item.image ? (
+                                <img src={item.image} alt={item.en} style={{ width: 24, height: 24, borderRadius: '50%', objectFit: 'cover', display: 'inline-block' }} />
+                            ) : (
+                                <span className="visual-emoji" style={{ fontSize: 20 }}>{item.emoji}</span>
+                            )}
                             <span className="lesson-example-da">{item.sentence}</span>
                             <span className="lesson-example-en">{item.sentenceEn}</span>
                         </div>
