@@ -14,6 +14,8 @@ const chapters = [
     { href: '/download', icon: '🖨️', label: 'Print for Practice', num: 'VI' },
 ];
 
+import Cookies from 'js-cookie';
+
 function SidebarNav() {
     const pathname = usePathname();
     const searchParams = useSearchParams();
@@ -21,11 +23,11 @@ function SidebarNav() {
 
     const [isAdmin, setIsAdmin] = useState(false);
 
-    // Run once on mount to check cookie
+    // Run once on mount to check cookie reliably
     import('react').then(({ useEffect }) => {
         useEffect(() => {
-            const hasAdminCookie = document.cookie.includes('dansk-user-role=admin');
-            if (hasAdminCookie || pathname.startsWith('/admin')) {
+            const role = Cookies.get('dansk-user-role');
+            if (role === 'admin' || pathname.startsWith('/admin')) {
                 setIsAdmin(true);
             }
         }, [pathname]);
