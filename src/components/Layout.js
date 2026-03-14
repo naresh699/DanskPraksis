@@ -24,12 +24,11 @@ function SidebarNav() {
     // Run once on mount to check cookie
     import('react').then(({ useEffect }) => {
         useEffect(() => {
-            const cookies = document.cookie.split('; ');
-            const roleCookie = cookies.find(row => row.startsWith('dansk-user-role='));
-            if (roleCookie && roleCookie.split('=')[1] === 'admin') {
+            const hasAdminCookie = document.cookie.includes('dansk-user-role=admin');
+            if (hasAdminCookie || pathname.startsWith('/admin')) {
                 setIsAdmin(true);
             }
-        }, []);
+        }, [pathname]);
     }).catch(() => { });
 
     return (
