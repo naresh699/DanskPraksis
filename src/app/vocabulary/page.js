@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Layout from '@/components/Layout';
 import SpeechButton from '@/components/SpeechButton';
+import ClockFace from '@/components/ClockFace';
 import { vocabulary } from '@/data/vocabulary';
 
 const categories = [
@@ -87,6 +88,10 @@ export default function VocabularyPage() {
                             {item.image ? (
                                 <div style={{ width: 64, height: 64, margin: '0 auto 8px', borderRadius: 8, overflow: 'hidden' }}>
                                     <img src={item.image} alt={item.en} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                </div>
+                            ) : activeTab === 'time' && item.en.match(/^\d+:\d+$/) ? (
+                                <div style={{ width: 100, height: 100, margin: '0 auto 8px' }}>
+                                    <ClockFace time={item.en} size={100} />
                                 </div>
                             ) : item.emoji ? (
                                 <span className="visual-emoji">{item.emoji}</span>

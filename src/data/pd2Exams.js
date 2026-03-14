@@ -103,6 +103,300 @@ Read the text and fill in the missing words based on the context of the sentence
             }
         ]
     },
+    {
+        id: 'pd2-practice-test-6',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 2 - Opgave 3',
+        typeEn: 'Reading Comprehension 2 - Gap Fill (Test 6)',
+        level: 'PD2',
+        lesson: {
+            title: 'Jonas i København',
+            titleEn: 'Jonas in Copenhagen',
+            topics: ['vocabulary', 'context'],
+            content: `Practice Test 6 from the official test bank. Fill in the missing words from the word bank.`
+        },
+        questions: [
+            {
+                id: 'pt6-q1',
+                sentence: 'Han mødte mange ______ mennesker, der ligesom ham gerne ville lære sproget.',
+                sentenceEn: 'He met many friendly people who, like him, wanted to learn the language.',
+                answer: 'venlige',
+                blank: 'venlige',
+                hint: 'Adjektiv: rare og imødekommende (kind and welcoming).',
+                options: ['venlige', 'koldt', 'humor', 'læse']
+            },
+            {
+                id: 'pt6-q2',
+                sentence: 'I begyndelsen syntes han, at vejret var meget ______.',
+                sentenceEn: 'In the beginning he thought the weather was very cold.',
+                answer: 'koldt',
+                blank: 'koldt',
+                hint: 'Adjektiv der beskriver vejret om vinteren (adjective describing winter weather).',
+                options: ['koldt', 'svært', 'venlige', 'motion']
+            },
+            {
+                id: 'pt6-q3',
+                sentence: 'Han brugte derfor mange aftener på at ______ med dem over video.',
+                sentenceEn: 'He therefore spent many evenings calling them over video.',
+                answer: 'ringe',
+                blank: 'ringe',
+                hint: 'At tale i telefon (to call).',
+                options: ['ringe', 'læse', 'tage sig', 'kage']
+            },
+            {
+                id: 'pt6-q4',
+                sentence: 'Efter et par måneder begyndte han at engagere sig i ______.',
+                sentenceEn: 'After a couple of months he started to get involved in the local community.',
+                answer: 'lokalsamfundet',
+                blank: 'lokalsamfundet',
+                hint: 'Det område, hvor man bor (the area where you live).',
+                options: ['lokalsamfundet', 'netværk', 'sygepleje', 'humor']
+            },
+            {
+                id: 'pt6-q5',
+                sentence: 'Hans ______ for dansk kultur voksede.',
+                sentenceEn: 'His understanding of Danish culture grew.',
+                answer: 'forståelse',
+                blank: 'forståelse',
+                hint: 'At kunne forstå noget (comprehension/understanding).',
+                options: ['forståelse', 'motion', 'venskab', 'kage']
+            },
+            {
+                id: 'pt6-q6',
+                sentence: 'På kurset fik han et varmt ______ med sin lærer.',
+                sentenceEn: 'At the course he developed a warm friendship with his teacher.',
+                answer: 'venskab',
+                blank: 'venskab',
+                hint: 'En tæt relation mellem to personer (a close bond between people).',
+                options: ['venskab', 'netværk', 'humor', 'forståelse']
+            },
+            {
+                id: 'pt6-q7',
+                sentence: 'Snart turde han spørge om hjælp, når noget var ______.',
+                sentenceEn: 'Soon he dared to ask for help when something was difficult.',
+                answer: 'svært',
+                blank: 'svært',
+                hint: 'Ikke nemt (not easy).',
+                options: ['svært', 'koldt', 'venlige', 'læse']
+            },
+            {
+                id: 'pt6-q8',
+                sentence: 'Han elsker at ______ af børnene.',
+                sentenceEn: 'He loves to take care of the children.',
+                answer: 'tage sig',
+                blank: 'tage sig',
+                hint: 'At drage omsorg for (to take care of).',
+                options: ['tage sig', 'ringe', 'læse', 'motion']
+            },
+            {
+                id: 'pt6-q9',
+                sentence: 'Han er stolt af at have skabt et stærkt ______ i Danmark.',
+                sentenceEn: 'He is proud of having created a strong network in Denmark.',
+                answer: 'netværk',
+                blank: 'netværk',
+                hint: 'En gruppe af kontakter og venner (a group of contacts and friends).',
+                options: ['netværk', 'lokalsamfundet', 'venskab', 'sygepleje']
+            }
+        ]
+    },
+    {
+        id: 'pd2-practice-test-7',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 2 - Opgave 3',
+        typeEn: 'Reading Comprehension 2 - Gap Fill (Test 7)',
+        level: 'PD2',
+        lesson: {
+            title: 'Hasan som buschauffør',
+            titleEn: 'Hasan as a bus driver',
+            topics: ['vocabulary', 'context'],
+            content: `Practice Test 7 from the official test bank. Fill in the missing words from the word bank.`
+        },
+        questions: [
+            {
+                id: 'pt7-q1',
+                sentence: 'Han var nervøs, fordi han ikke kendte ______ passagerer.',
+                sentenceEn: 'He was nervous because he did not know the new passengers.',
+                answer: 'nye',
+                blank: 'nye',
+                hint: 'Modsætningen af gamle (the opposite of old).',
+                options: ['nye', 'tidligt', 'roligt', 'erfaringer']
+            },
+            {
+                id: 'pt7-q2',
+                sentence: 'I den første uge stod han op ______ for at forberede sig.',
+                sentenceEn: 'In the first week he got up early to prepare.',
+                answer: 'tidligt',
+                blank: 'tidligt',
+                hint: 'Før de andre (before the others / early).',
+                options: ['tidligt', 'roligt', 'nye', 'støtte']
+            },
+            {
+                id: 'pt7-q3',
+                sentence: 'Han øvede sig på at ______ bussen gennem trafikken.',
+                sentenceEn: 'He practised driving the bus through traffic.',
+                answer: 'træne',
+                blank: 'træne',
+                hint: 'At øve sig (to practise/train).',
+                options: ['træne', 'støtte', 'rutine', 'fællesskab']
+            },
+            {
+                id: 'pt7-q4',
+                sentence: 'Kollegernes ______ var afgørende.',
+                sentenceEn: 'The colleagues\' support was crucial.',
+                answer: 'støtte',
+                blank: 'støtte',
+                hint: 'Hjælp og opbakning (help and backing).',
+                options: ['støtte', 'udfordring', 'fællesskab', 'rutine']
+            },
+            {
+                id: 'pt7-q5',
+                sentence: 'Arbejdet blev en daglig ______.',
+                sentenceEn: 'The work became a daily routine.',
+                answer: 'rutine',
+                blank: 'rutine',
+                hint: 'Noget man gør hver dag (something done every day).',
+                options: ['rutine', 'udfordring', 'erfaringer', 'støtte']
+            },
+            {
+                id: 'pt7-q6',
+                sentence: 'Han lærte at tage tingene ______, selv når der var mange mennesker.',
+                sentenceEn: 'He learned to take things calmly, even when there were many people.',
+                answer: 'roligt',
+                blank: 'roligt',
+                hint: 'At være i fred, ikke stresset (calm, not stressed).',
+                options: ['roligt', 'tidligt', 'nye', 'træne']
+            },
+            {
+                id: 'pt7-q7',
+                sentence: 'Han udviklede et stærkt ______ blandt chaufførerne.',
+                sentenceEn: 'He developed a strong community among the drivers.',
+                answer: 'fællesskab',
+                blank: 'fællesskab',
+                hint: 'En gruppe mennesker, der hører sammen (a sense of community).',
+                options: ['fællesskab', 'rutine', 'støtte', 'erfaringer']
+            },
+            {
+                id: 'pt7-q8',
+                sentence: 'Han ser hver dag som en ny ______.',
+                sentenceEn: 'He sees every day as a new challenge.',
+                answer: 'udfordring',
+                blank: 'udfordring',
+                hint: 'Noget der kræver indsats (something requiring effort).',
+                options: ['udfordring', 'rutine', 'fællesskab', 'nye']
+            },
+            {
+                id: 'pt7-q9',
+                sentence: 'Han bruger sine ______ til at hjælpe nye kolleger.',
+                sentenceEn: 'He uses his experiences to help new colleagues.',
+                answer: 'erfaringer',
+                blank: 'erfaringer',
+                hint: 'Viden opnået gennem praksis (knowledge gained through practice).',
+                options: ['erfaringer', 'støtte', 'udfordring', 'træne']
+            }
+        ]
+    },
+    {
+        id: 'pd2-practice-test-8',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 2 - Opgave 3',
+        typeEn: 'Reading Comprehension 2 - Gap Fill (Test 8)',
+        level: 'PD2',
+        lesson: {
+            title: 'Ahmed i Danmark',
+            titleEn: 'Ahmed in Denmark',
+            topics: ['vocabulary', 'context'],
+            content: `Practice Test 8 from the official test bank. Fill in the missing words from the word bank.`
+        },
+        questions: [
+            {
+                id: 'pt8-q1',
+                sentence: 'Da han kom, kendte han ingen ______ i byen.',
+                sentenceEn: 'When he arrived, he knew no friends in the city.',
+                answer: 'venner',
+                blank: 'venner',
+                hint: 'Folk man holder af (people you care about).',
+                options: ['venner', 'kolde', 'naboer', 'unge']
+            },
+            {
+                id: 'pt8-q2',
+                sentence: 'Vejret var ______ om vinteren.',
+                sentenceEn: 'The weather was cold in winter.',
+                answer: 'kolde',
+                blank: 'kolde',
+                hint: 'Et adjektiv der beskriver vintertemperaturer (an adjective for winter temperatures).',
+                options: ['kolde', 'modig', 'triste', 'unge']
+            },
+            {
+                id: 'pt8-q3',
+                sentence: 'Han begyndte at ______ med sine forældre hver aften.',
+                sentenceEn: 'He started to communicate with his parents every evening.',
+                answer: 'kommunikere',
+                blank: 'kommunikere',
+                hint: 'At tale eller skrive med nogen (to talk or write with someone).',
+                options: ['kommunikere', 'ringe', 'bo', 'kiosk']
+            },
+            {
+                id: 'pt8-q4',
+                sentence: 'Snart lærte han at cykle rundt i ______.',
+                sentenceEn: 'Soon he learned to cycle around the city.',
+                answer: 'byen',
+                blank: 'byen',
+                hint: 'Et stort sted med mange mennesker (a large place with many people).',
+                options: ['byen', 'kiosk', 'relation', 'venner']
+            },
+            {
+                id: 'pt8-q5',
+                sentence: 'Han fandt også en lille ______, der solgte hans yndlingsretter.',
+                sentenceEn: 'He also found a small kiosk that sold his favourite dishes.',
+                answer: 'kiosk',
+                blank: 'kiosk',
+                hint: 'En lille butik (a small shop/kiosk).',
+                options: ['kiosk', 'byen', 'relation', 'interesse']
+            },
+            {
+                id: 'pt8-q6',
+                sentence: 'På studiet fik han en god ______ med sin danske studiekammerat.',
+                sentenceEn: 'At university, he developed a good relationship with his Danish classmate.',
+                answer: 'relation',
+                blank: 'relation',
+                hint: 'Et forhold mellem to mennesker (a relationship between two people).',
+                options: ['relation', 'kiosk', 'interesse', 'venner']
+            },
+            {
+                id: 'pt8-q7',
+                sentence: 'Efter et par måneder blev han mere ______.',
+                sentenceEn: 'After a couple of months he became more courageous.',
+                answer: 'modig',
+                blank: 'modig',
+                hint: 'Ikke bange (not afraid / brave).',
+                options: ['modig', 'kolde', 'triste', 'unge']
+            },
+            {
+                id: 'pt8-q8',
+                sentence: 'Der fik han nye venner og ______ for lokal kultur.',
+                sentenceEn: 'There he gained new friends and an interest in local culture.',
+                answer: 'interesse',
+                blank: 'interesse',
+                hint: 'Nysgerrighed (curiosity / interest).',
+                options: ['interesse', 'relation', 'kiosk', 'bo']
+            },
+            {
+                id: 'pt8-q9',
+                sentence: 'Nu planlægger han at ______ i Danmark efter sin uddannelse.',
+                sentenceEn: 'Now he plans to live in Denmark after his education.',
+                answer: 'bo',
+                blank: 'bo',
+                hint: 'At have sit hjem et sted (to reside/live).',
+                options: ['bo', 'kommunikere', 'ringe', 'interesse']
+            }
+        ]
+    },
     // ============ 2023 ============
     {
         id: 'pd2-2023-sommer-laese1',

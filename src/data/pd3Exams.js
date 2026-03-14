@@ -94,6 +94,246 @@ Read the text and fill in the missing words based on the context of the sentence
             }
         ]
     },
+    {
+        id: 'pd3-practice-test-6',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Delprøve 3',
+        typeEn: 'Gap Fill MCQ (Test 6)',
+        level: 'PD3',
+        lesson: {
+            title: 'Kunstig intelligens i sundhedsvæsenet',
+            titleEn: 'Artificial Intelligence in Healthcare',
+            topics: ['vocabulary', 'context', 'word-order-v2'],
+            content: `Practice Test 6 from the official test bank. AI in the Danish healthcare system — ethical, technological, and practical aspects.`
+        },
+        questions: [
+            {
+                id: 'pt6-q1',
+                sentence: 'AI-systemer kan hjælpe læger med at stille ______ diagnoser.',
+                sentenceEn: 'AI systems can help doctors make precise diagnoses.',
+                answer: 'præcise',
+                blank: 'præcise',
+                hint: 'Nøjagtige og korrekte (accurate and correct).',
+                options: ['præcise', 'økonomiske', 'juridiske', 'sociale']
+            },
+            {
+                id: 'pt6-q2',
+                sentence: 'Algoritmerne skal være transparente og ______.',
+                sentenceEn: 'The algorithms must be transparent and reliable.',
+                answer: 'pålidelige',
+                blank: 'pålidelige',
+                hint: 'Man kan stole på dem (trustworthy).',
+                options: ['pålidelige', 'tilfældige', 'hemmelige', 'kommercielle']
+            },
+            {
+                id: 'pt6-q3',
+                sentence: 'Patienter kan ______ i beslutninger om egen behandling.',
+                sentenceEn: 'Patients can participate in decisions about their own treatment.',
+                answer: 'deltage',
+                blank: 'deltage',
+                hint: 'At være en del af noget (to take part in).',
+                options: ['ignorere', 'deltage', 'undgå', 'reducere']
+            },
+            {
+                id: 'pt6-q4',
+                sentence: 'Der udføres løbende ______ af AI-løsningerne.',
+                sentenceEn: 'Ongoing control of AI solutions is carried out.',
+                answer: 'kontrol',
+                blank: 'kontrol',
+                hint: 'At sikre at noget fungerer korrekt (monitoring/checking).',
+                options: ['kontrol', 'frihed', 'reklame', 'nedskæring']
+            },
+            {
+                id: 'pt6-q5',
+                sentence: 'Hospitaler samarbejder for at udvikle nye AI-______.',
+                sentenceEn: 'Hospitals collaborate to develop new AI tools.',
+                answer: 'værktøjer',
+                blank: 'værktøjer',
+                hint: 'Redskaber man bruger til at arbejde (instruments/tools).',
+                options: ['værktøjer', 'malebøger', 'parkeringspladser', 'billetter']
+            },
+            {
+                id: 'pt6-q6',
+                sentence: 'Beslutninger truffet af AI skal kunne ______ af mennesker.',
+                sentenceEn: 'Decisions made by AI must be reversible by humans.',
+                answer: 'omgøres',
+                blank: 'omgøres',
+                hint: 'At ændre eller vende en beslutning (to reverse/undo).',
+                options: ['promoveres', 'overlades', 'omgøres', 'opbevares']
+            },
+            {
+                id: 'pt6-q7',
+                sentence: 'Det kræver nytænkning, investeringer og ______ til både personale og borgere.',
+                sentenceEn: 'It requires innovation, investments, and education for both staff and citizens.',
+                answer: 'uddannelse',
+                blank: 'uddannelse',
+                hint: 'Træning og læring (training and learning).',
+                options: ['uddannelse', 'afslapning', 'underholdning', 'besparelse']
+            },
+            {
+                id: 'pt6-q8',
+                sentence: 'AI kan blive et værdifuldt ______ i behandlingen.',
+                sentenceEn: 'AI can become a valuable tool in treatment.',
+                answer: 'værktøj',
+                blank: 'værktøj',
+                hint: 'Et redskab (a tool/instrument, singular).',
+                options: ['værktøj', 'problem', 'middel', 'hinder']
+            }
+        ]
+    },
+    {
+        id: 'pd3-practice-test-7',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Delprøve 3',
+        typeEn: 'Gap Fill MCQ (Test 7)',
+        level: 'PD3',
+        lesson: {
+            title: 'Livslang læring og efteruddannelse',
+            titleEn: 'Lifelong Learning and Continuing Education',
+            topics: ['vocabulary', 'context', 'word-order-v2'],
+            content: `Practice Test 7 from the official test bank. Lifelong learning, continuing education, and workplace development in Denmark.`
+        },
+        questions: [
+            {
+                id: 'pt7-q1',
+                sentence: 'Medarbejdere føler sig mere ______, når de får mulighed for at udvikle sig.',
+                sentenceEn: 'Employees feel more motivated when they get the chance to develop.',
+                answer: 'motiverede',
+                blank: 'motiverede',
+                hint: 'Inspirerede og villige til at arbejde (inspired and willing to work).',
+                options: ['motiverede', 'forvirrede', 'passive', 'overvældede']
+            },
+            {
+                id: 'pt7-q2',
+                sentence: 'Det vigtigste er at vælge et forløb, som man ______ for.',
+                sentenceEn: 'The most important thing is to choose a course that one is passionate about.',
+                answer: 'brænder',
+                blank: 'brænder',
+                hint: 'Fast udtryk: at brænde for noget (to be passionate about something).',
+                options: ['glæder sig', 'mister håbet', 'lærer', 'brænder']
+            },
+            {
+                id: 'pt7-q3',
+                sentence: 'Det kan ______ både produktiviteten og medarbejdernes trivsel.',
+                sentenceEn: 'It can improve both productivity and employee well-being.',
+                answer: 'forbedre',
+                blank: 'forbedre',
+                hint: 'At gøre noget bedre (to make something better).',
+                options: ['reducere', 'forværre', 'forbedre', 'ignorere']
+            },
+            {
+                id: 'pt7-q4',
+                sentence: 'Ældre medarbejdere kan føle sig ______ af nye digitale systemer.',
+                sentenceEn: 'Older employees may feel left behind by new digital systems.',
+                answer: 'hægtede',
+                blank: 'hægtede',
+                hint: 'Fast vending: at blive hægtet af (to be left behind/outpaced).',
+                options: ['styrkede', 'overhalede', 'overladte', 'hægtede']
+            },
+            {
+                id: 'pt7-q5',
+                sentence: 'Det giver en ______ tilværelse og kan forebygge ensomhed.',
+                sentenceEn: 'It provides a richer existence and can prevent loneliness.',
+                answer: 'rigere',
+                blank: 'rigere',
+                hint: 'Mere indholdsrig (more enriched/richer).',
+                options: ['mere ensformig', 'rigere', 'travlere', 'kortere']
+            }
+        ]
+    },
+    {
+        id: 'pd3-practice-test-8',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Delprøve 3',
+        typeEn: 'Gap Fill MCQ (Test 8)',
+        level: 'PD3',
+        lesson: {
+            title: 'Livslang læring',
+            titleEn: 'Lifelong Learning',
+            topics: ['vocabulary', 'context', 'word-order-v2'],
+            content: `Practice Test 8 from the official test bank. How lifelong learning impacts careers, workplaces, and personal growth.`
+        },
+        questions: [
+            {
+                id: 'pt8-q1',
+                sentence: 'Flere oplever, at den ______ viden giver dem mod til at søge nye stillinger.',
+                sentenceEn: 'Many experience that the updated knowledge gives them courage to seek new positions.',
+                answer: 'opdateret',
+                blank: 'opdateret',
+                hint: 'Ny og aktuel (new and current / updated).',
+                options: ['opdateret', 'udmattet', 'langvarig', 'svag']
+            },
+            {
+                id: 'pt8-q2',
+                sentence: 'Man kan selv bestemme tempo og dermed ______ arbejdstid, familieliv og studier.',
+                sentenceEn: 'You can set your own pace and thus combine work hours, family life, and studies.',
+                answer: 'forene',
+                blank: 'forene',
+                hint: 'At kombinere eller harmonere (to combine/unite).',
+                options: ['forene', 'dekorere', 'tvinge', 'bekæmpe']
+            },
+            {
+                id: 'pt8-q3',
+                sentence: 'Der er ikke altid en lærer, der ______ en til at møde op.',
+                sentenceEn: 'There is not always a teacher who encourages one to show up.',
+                answer: 'opfordrer',
+                blank: 'opfordrer',
+                hint: 'At motivere nogen (to encourage/urge).',
+                options: ['minder', 'opfordrer', 'stopper', 'forstyrrer']
+            },
+            {
+                id: 'pt8-q4',
+                sentence: 'Medarbejdere er mere ______ og loyale, hvis deres udvikling tages alvorligt.',
+                sentenceEn: 'Employees are more engaged and loyal if their development is taken seriously.',
+                answer: 'engagerede',
+                blank: 'engagerede',
+                hint: 'Dybt involverede og motiverede (deeply involved and motivated).',
+                options: ['engagerede', 'forvirrede', 'generte', 'urolige']
+            },
+            {
+                id: 'pt8-q5',
+                sentence: 'Læring skal være en integreret del af arbejdspladsens ______.',
+                sentenceEn: 'Learning should be an integrated part of the workplace culture.',
+                answer: 'kultur',
+                blank: 'kultur',
+                hint: 'Normer og værdier på en arbejdsplads (norms and values at a workplace).',
+                options: ['kultur', 'butik', 'ferie', 'maskine']
+            },
+            {
+                id: 'pt8-q6',
+                sentence: 'Det er nemmere at stille spørgsmål i et lokale og få ______ feedback.',
+                sentenceEn: 'It is easier to ask questions in a room and get personal feedback.',
+                answer: 'personlig',
+                blank: 'personlig',
+                hint: 'Direkte og individuel (direct and individual / personal).',
+                options: ['personlig', 'forsinket', 'minimal', 'anonym']
+            },
+            {
+                id: 'pt8-q7',
+                sentence: 'Udfordringen er at finde en ______ mellem digitale og analoge læringsformer.',
+                sentenceEn: 'The challenge is to find a balance between digital and analogue learning methods.',
+                answer: 'balance',
+                blank: 'balance',
+                hint: 'Ligevægt mellem to ting (equilibrium between two things).',
+                options: ['balance', 'modstand', 'risiko', 'logik']
+            },
+            {
+                id: 'pt8-q8',
+                sentence: 'Livslang læring kræver også en ______ indsats.',
+                sentenceEn: 'Lifelong learning also requires a persistent effort.',
+                answer: 'vedholdende',
+                blank: 'vedholdende',
+                hint: 'Udholdende og vedvarende (persistent and sustained).',
+                options: ['vedholdende', 'tilfældig', 'skadelig', 'midlertidig']
+            }
+        ]
+    },
     // ============ 2022 ============
     {
         id: 'pd3-2022-sommer-laese1',
