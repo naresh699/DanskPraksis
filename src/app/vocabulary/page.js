@@ -87,7 +87,7 @@ export default function VocabularyPage() {
                             {item.emoji && <span className="visual-emoji">{item.emoji}</span>}
                             <span className="visual-da">{item.da}</span>
                             <span className="visual-en">{item.en}</span>
-                            <SpeechButton text={item.sentence || item.da} size="small" />
+                            <SpeechButton text={item.da} size="small" />
                         </div>
                     ))}
                 </div>
