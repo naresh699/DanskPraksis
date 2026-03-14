@@ -95,6 +95,362 @@ Read the text and fill in the missing words based on the context of the sentence
         ]
     },
     {
+        id: 'pd3-practice-test-2',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Delprøve 3',
+        typeEn: 'Gap Fill MCQ (Test 2)',
+        level: 'PD3',
+        lesson: {
+            title: 'Indenlandsk turisme',
+            titleEn: 'Domestic Tourism',
+            topics: ['vocabulary', 'context', 'word-order-v2'],
+            content: `Practice Test 2 from the official test bank. Reading about domestic tourism in Denmark.`
+        },
+        questions: [
+            {
+                id: 'pt2-q1',
+                sentence: 'I stedet for at rejse til eksotiske destinationer vælger ﬂere nu at udforske landets ______ kyster, slotte og naturparker.',
+                sentenceEn: 'Instead of traveling to exotic destinations, more people are now choosing to explore the country\'s exciting coasts, castles, and nature parks.',
+                answer: 'spændende',
+                blank: 'spændende',
+                hint: 'Noget der fanger ens interesse (exciting).',
+                options: ['spændende', 'juridiske', 'matematiske', 'upraktiske']
+            },
+            {
+                id: 'pt2-q2',
+                sentence: 'Mange mindre hoteller har oplevet en stigning i gæster, og nye ______ opstår hele tiden.',
+                sentenceEn: 'Many small hotels have experienced an increase in guests, and new offers are emerging all the time.',
+                answer: 'tilbud',
+                blank: 'tilbud',
+                hint: 'Noget man kan få eller købe (offers).',
+                options: ['tilbud', 'konﬂikter', 'arbejdspladser', 'systemer']
+            },
+            {
+                id: 'pt2-q3',
+                sentence: 'En undersøgelse peger på, at indenlandsk turisme kan ______ bæredygtig udvikling.',
+                sentenceEn: 'A study indicates that domestic tourism can promote sustainable development.',
+                answer: 'fremme',
+                blank: 'fremme',
+                hint: 'At støtte eller skubbe på noget positivt (promote).',
+                options: ['fremme', 'forbyde', 'forringe', 'fraråde']
+            },
+            {
+                id: 'pt2-q4',
+                sentence: 'Besøgende kan lære at bage surdejsbrød eller deltage i historiske ______.',
+                sentenceEn: 'Visitors can learn to bake sourdough bread or participate in historical events.',
+                answer: 'arrangementer',
+                blank: 'arrangementer',
+                hint: 'Events, forestillinger eller andre planlagte oplevelser (events).',
+                options: ['arrangementer', 'udsmykninger', 'intentioner', 'apparater']
+            },
+            {
+                id: 'pt2-q5',
+                sentence: 'Når man kan bade om formiddagen og gå på museum om eftermiddagen, føler man ikke, at man ______ sig.',
+                sentenceEn: 'When you can swim in the morning and go to a museum in the afternoon, you don\'t feel like you are cheating yourself.',
+                answer: 'snyder',
+                blank: 'snyder',
+                hint: 'At bedrage (to cheat).',
+                options: ['snyder', 'hviler', 'roser', 'lærer']
+            },
+            {
+                id: 'pt2-q6',
+                sentence: 'Mange danskere føler sig mere ______ i eget land og er rolige ved at kommunikere på deres eget sprog.',
+                sentenceEn: 'Many Danes feel more safe/secure in their own country and are comfortable communicating in their own language.',
+                answer: 'trygge',
+                blank: 'trygge',
+                hint: 'Sikre og veltilpasse (safe / secure).',
+                options: ['trygge', 'bemærkelsesværdige', 'usikre', 'tilfældige']
+            },
+            {
+                id: 'pt2-q7',
+                sentence: 'Lokale bør samarbejde om at skabe en ______ turisme, der tager hensyn til natur og lokalbefolkning.',
+                sentenceEn: 'Locals should collaborate to create sustainable tourism that considers nature and the local population.',
+                answer: 'bæredygtig',
+                blank: 'bæredygtig',
+                hint: 'En grøn og langsigtet løsning (sustainable).',
+                options: ['bæredygtig', 'begrænset', 'tilfældig', 'overlappende']
+            },
+            {
+                id: 'pt2-q8',
+                sentence: 'Samlet set giver indenlandsk turisme en ______ mellem økonomiske, sociale og miljømæssige hensyn.',
+                sentenceEn: 'Overall, domestic tourism provides a balance between economic, social, and environmental considerations.',
+                answer: 'balance',
+                blank: 'balance',
+                hint: 'Ligevægt (balance).',
+                options: ['balance', 'distance', 'usikkerhed', 'pause']
+            }
+        ]
+    },
+    {
+        id: 'pd3-practice-test-3',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Delprøve 3',
+        typeEn: 'Gap Fill MCQ (Test 3)',
+        level: 'PD3',
+        lesson: {
+            title: 'Energibesparelser i hjemmet',
+            titleEn: 'Energy Savings at Home',
+            topics: ['vocabulary', 'context', 'word-order-v2'],
+            content: `Practice Test 3 from the official test bank. Reading about energy consumption and savings.`
+        },
+        questions: [
+            {
+                id: 'pt3-q1',
+                sentence: 'Energistyrelsen understreger, at en ______ bolig ikke kun gavner klimaet, men også budgettet.',
+                sentenceEn: 'The Danish Energy Agency emphasizes that an energy-friendly home benefits not only the climate, but also the budget.',
+                answer: 'energivenlig',
+                blank: 'energivenlig',
+                hint: 'God for energi og miljø (energy-friendly).',
+                options: ['energivenlig', 'historisk', 'modig', 'rodet']
+            },
+            {
+                id: 'pt3-q2',
+                sentence: 'Mange kommuner tilbyder rådgivning om tilskudsordninger, der kan gøre det lettere at ______ energiforbruget.',
+                sentenceEn: 'Many municipalities offer advice on grant schemes that can make it easier to reduce energy consumption.',
+                answer: 'reducere',
+                blank: 'reducere',
+                hint: 'At gøre mindre / sænke (reduce).',
+                options: ['reducere', 'øge', 'diskutere', 'genopﬁnde']
+            },
+            {
+                id: 'pt3-q3',
+                sentence: 'Det kræver dog en vis ______ at vælge de rigtige materialer og håndværkere.',
+                sentenceEn: 'However, it requires a certain knowledge to choose the right materials and craftsmen.',
+                answer: 'viden',
+                blank: 'viden',
+                hint: 'Noget man ved (knowledge).',
+                options: ['viden', 'humor', 'strøm', 'temperatur']
+            },
+            {
+                id: 'pt3-q4',
+                sentence: 'At følge sit eget forbrug skaber ______, der gør det lettere at ændre adfærd og sætte realistiske mål.',
+                sentenceEn: 'Following your own consumption creates transparency, which makes it easier to change behavior and set realistic goals.',
+                answer: 'gennemsigtighed',
+                blank: 'gennemsigtighed',
+                hint: 'Åbenhed og klarhed, så man kan se hvad der foregår (transparency).',
+                options: ['gennemsigtighed', 'overproduktion', 'repræsentation', 'konstruktion']
+            },
+            {
+                id: 'pt3-q5',
+                sentence: 'På længere sigt kan en lavere energiregning også øge boligens værdi, hvis man en dag beslutter sig for at ______.',
+                sentenceEn: 'In the long term, a lower energy bill can also increase the home\'s value if you one day decide to sell.',
+                answer: 'sælge',
+                blank: 'sælge',
+                hint: 'At udveksle boligen for penge (sell).',
+                options: ['sælge', 'investere', 'ødelægge', 'glemme']
+            },
+            {
+                id: 'pt3-q6',
+                sentence: 'Teknologien vil give os ﬂere muligheder for at gøre hjemmet mere ______.',
+                sentenceEn: 'Technology will give us more opportunities to make the home more energy-efficient.',
+                answer: 'energieffektiv',
+                blank: 'energieffektiv',
+                hint: 'Som bruger energien fornuftigt uden spild (energy-efficient).',
+                options: ['energieffektiv', 'ﬂeksibel', 'fredelig', 'uoverskuelig']
+            },
+            {
+                id: 'pt3-q7',
+                sentence: 'Teknologien alene kan ikke gøre det; vi må også ændre vores vaner og tage et ______ ansvar.',
+                sentenceEn: 'Technology alone cannot do it; we must also change our habits and take a personal responsibility.',
+                answer: 'personligt',
+                blank: 'personligt',
+                hint: 'Noget der gælder en selv (personal).',
+                options: ['personligt', 'juridisk', 'uretfærdigt', 'globalt']
+            },
+            {
+                id: 'pt3-q8',
+                sentence: 'Kun sådan kan vi nå en mere ______ udvikling.',
+                sentenceEn: 'Only in this way can we achieve a more sustainable development.',
+                answer: 'bæredygtig',
+                blank: 'bæredygtig',
+                hint: 'Godt for både miljø og klima på lang sigt (sustainable).',
+                options: ['bæredygtig', 'desperat', 'ustyrlig', 'klassisk']
+            }
+        ]
+    },
+    {
+        id: 'pd3-practice-test-4',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Delprøve 3',
+        typeEn: 'Gap Fill MCQ (Test 4)',
+        level: 'PD3',
+        lesson: {
+            title: 'Digitale medier og mental sundhed',
+            titleEn: 'Digital Media and Mental Health',
+            topics: ['vocabulary', 'context', 'word-order-v2'],
+            content: `Practice Test 4 from the official test bank. Reading about screen time and well-being.`
+        },
+        questions: [
+            {
+                id: 'pt4-q1',
+                sentence: 'Den ______ kontakt via apps kan dog ikke erstatte fysiske møder, siger eksperter.',
+                sentenceEn: 'However, the digital contact via apps cannot replace physical meetings, experts say.',
+                answer: 'digital',
+                blank: 'digital',
+                hint: 'Noget der foregår elektronisk (digital).',
+                options: ['digital', 'økonomisk', 'juridisk', 'praktisk']
+            },
+            {
+                id: 'pt4-q2',
+                sentence: 'På den måde forsøger de at ______ tiden mellem arbejde, fritid og sociale medier.',
+                sentenceEn: 'In this way they try to balance the time between work, leisure and social media.',
+                answer: 'balancere',
+                blank: 'balancere',
+                hint: 'At finde en ligevægt / fordele jævnt (to balance).',
+                options: ['balancere', 'opdele', 'forbyde', 'beklage']
+            },
+            {
+                id: 'pt4-q3',
+                sentence: 'Forskere ______, at vi bør være opmærksomme på, hvordan brugen af digitale medier påvirker vores søvn, fokus og relationer.',
+                sentenceEn: 'Researchers warn that we should pay attention to how the use of digital media affects our sleep, focus and relationships.',
+                answer: 'advarer',
+                blank: 'advarer',
+                hint: 'At sige, at noget kan være farligt (warnings/warn).',
+                options: ['advarer', 'ignorerer', 'betvivler', 'accepterer']
+            },
+            {
+                id: 'pt4-q4',
+                sentence: 'De anbefaler, at vi skaber faste rutiner og ______ i hverdagen.',
+                sentenceEn: 'They recommend that we create fixed routines and breaks in everyday life.',
+                answer: 'pauser',
+                blank: 'pauser',
+                hint: 'Tidspunkter hvor man slapper af (breaks).',
+                options: ['pauser', 'problemer', 'cookies', 'investeringer']
+            },
+            {
+                id: 'pt4-q5',
+                sentence: 'En international undersøgelse viste, at folk, der satte sig ______, brugte mindre tid online og følte sig mere til stede i nuet.',
+                sentenceEn: 'An international study showed that people who set time limits spent less time online and felt more present in the moment.',
+                answer: 'tidsgrænser',
+                blank: 'tidsgrænser',
+                hint: 'Et stramt maksimum for tidsforbrug (time limits).',
+                options: ['tidsgrænser', 'undskyldninger', 'affaldsposer', 'banker']
+            },
+            {
+                id: 'pt4-q6',
+                sentence: 'Undersøgelsen viste også, at forældre spiller en vigtig rolle ved at være forbilleder og ______ gode vaner hos deres børn.',
+                sentenceEn: 'The study also showed that parents play an important role by being role models and promoting good habits in their children.',
+                answer: 'fremmer',
+                blank: 'fremmer',
+                hint: 'At støtte en positiv udvikling (promotes).',
+                options: ['fremmer', 'forbyder', 'overser', 'forsinker']
+            },
+            {
+                id: 'pt4-q7',
+                sentence: 'På den måde kan vi alle lære at bruge teknologien på en sund måde og finde en ______ balance mellem skærm og virkelighed.',
+                sentenceEn: 'In this way, we can all learn to use technology in a healthy way and find a healthy balance between screen and reality.',
+                answer: 'sund',
+                blank: 'sund',
+                hint: 'Godt for helbredet (healthy).',
+                options: ['sund', 'kunstig', 'negativ', 'tilfældig']
+            },
+            {
+                id: 'pt4-q8',
+                sentence: 'En ______ tilgang kan hjælpe med at sikre, at vi både udnytter teknologiens fordele og passer på vores mentale velbeﬁndende.',
+                sentenceEn: 'A balanced approach can help ensure that we both utilize the benefits of technology and take care of our mental well-being.',
+                answer: 'balanceret',
+                blank: 'balanceret',
+                hint: 'Noget der er i ligevægt (balanced).',
+                options: ['balanceret', 'risikabel', 'bekymret', 'overﬂadisk']
+            }
+        ]
+    },
+    {
+        id: 'pd3-practice-test-5',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Delprøve 3',
+        typeEn: 'Gap Fill MCQ (Test 5)',
+        level: 'PD3',
+        lesson: {
+            title: 'Sunde vaner og motion',
+            titleEn: 'Healthy Habits and Exercise',
+            topics: ['vocabulary', 'context', 'word-order-v2'],
+            content: `Practice Test 5 from the official test bank. Reading about exercise and health.`
+        },
+        questions: [
+            {
+                id: 'pt5-q1',
+                sentence: 'Forskning viser, at regelmæssig ______ aktivitet ikke kun styrker kroppen, men også kan forbedre koncentrationen og reducere stress.',
+                sentenceEn: 'Research shows that regular physical activity not only strengthens the body, but can also improve concentration and reduce stress.',
+                answer: 'fysisk',
+                blank: 'fysisk',
+                hint: 'Noget der har med kroppen at gøre (physical).',
+                options: ['fysisk', 'juridisk', 'teknisk', 'økonomisk']
+            },
+            {
+                id: 'pt5-q2',
+                sentence: 'Mange vælger at cykle til arbejde eller stå af bussen nogle ______ før.',
+                sentenceEn: 'Many choose to cycle to work or get off the bus a few stops early.',
+                answer: 'stationer',
+                blank: 'stationer',
+                hint: 'Steder hvor bussen/toget stopper (stations/stops).',
+                options: ['stationer', 'minutter', 'byer', 'dage']
+            },
+            {
+                id: 'pt5-q3',
+                sentence: 'Andre sætter en alarm som påmindelse om at lave ______ øvelser ved skrivebordet.',
+                sentenceEn: 'Others set an alarm as a reminder to do light exercises at the desk.',
+                answer: 'lette',
+                blank: 'lette',
+                hint: 'Ikke tunge/svære (light/easy).',
+                options: ['dyre', 'lette', 'farlige', 'vanskelige']
+            },
+            {
+                id: 'pt5-q4',
+                sentence: 'Det er vigtigt, at man ﬁnder aktiviteter, der er ______ og passer til ens niveau, så man undgår skader og fastholder motivationen.',
+                sentenceEn: 'It is important to find activities that are tailored and fit one\'s level, so injuries are avoided and motivation is maintained.',
+                answer: 'tilpassede',
+                blank: 'tilpassede',
+                hint: 'Gjort passende til formålet (adapted/tailored).',
+                options: ['tilfældige', 'tilpassede', 'forkerte', 'pludselige']
+            },
+            {
+                id: 'pt5-q5',
+                sentence: 'Det betyder blandt andet, at man spiser varieret og får ______ nok søvn.',
+                sentenceEn: 'This means, among other things, eating a varied diet and getting sufficient sleep.',
+                answer: 'tilstrækkelig',
+                blank: 'tilstrækkelig',
+                hint: 'Nok / det der er brug for (sufficient).',
+                options: ['tilstrækkelig', 'økonomisk', 'festlig', 'ulovlig']
+            },
+            {
+                id: 'pt5-q6',
+                sentence: 'En ______ balance mellem arbejde, fritid og hvile kan være afgørende for at føle sig godt tilpas.',
+                sentenceEn: 'A healthy balance between work, leisure and rest can be crucial to feeling well.',
+                answer: 'sund',
+                blank: 'sund',
+                hint: 'Godt for helbredet (healthy).',
+                options: ['sund', 'midlertidig', 'kritisk', 'hård']
+            },
+            {
+                id: 'pt5-q7',
+                sentence: 'Mens nogle foretrækker at ______ sig selv med højintensiv træning, trives andre bedre med yoga eller lange gåture i naturen.',
+                sentenceEn: 'While some prefer to push themselves with high-intensity training, others thrive better with yoga or long walks in nature.',
+                answer: 'presse',
+                blank: 'presse',
+                hint: 'At lægge pres på (to push).',
+                options: ['presse', 'kede', 'gemme', 'miste']
+            },
+            {
+                id: 'pt5-q8',
+                sentence: 'Uanset hvad handler det om at ﬁnde en ______ rytme, der gør motion til en naturlig del af livet.',
+                sentenceEn: 'Regardless, it is about finding a regular rhythm that makes exercise a natural part of life.',
+                answer: 'regelmæssig',
+                blank: 'regelmæssig',
+                hint: 'Noget der gentager sig på et fast tidspunkt (regular).',
+                options: ['regelmæssig', 'rodet', 'spontan', 'besværlig']
+            }
+        ]
+    },
+    {
         id: 'pd3-practice-test-6',
         year: 2024,
         season: 'Practice',

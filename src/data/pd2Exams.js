@@ -104,6 +104,398 @@ Read the text and fill in the missing words based on the context of the sentence
         ]
     },
     {
+        id: 'pd2-practice-test-2',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 2 - Opgave 3',
+        typeEn: 'Reading Comprehension 2 - Gap Fill (Test 2)',
+        level: 'PD2',
+        lesson: {
+            title: 'Ahmed flytter til en dansk by',
+            titleEn: 'Ahmed moves to a Danish town',
+            topics: ['vocabulary', 'context'],
+            content: `Practice Test 2 from the official test bank. Fill in the missing words from the word bank.`
+        },
+        questions: [
+            {
+                id: 'pt2-q1',
+                sentence: 'Ahmed ﬂyttede til en mindre dansk by sidste år for at arbejde som ______ chauffør.',
+                sentenceEn: 'Ahmed moved to a smaller Danish town last year to work as a bus driver.',
+                answer: 'bus',
+                blank: 'bus',
+                hint: 'Et transportmiddel (a means of transport).',
+                options: ['bus', 'skole', 'telefon', 'kontor']
+            },
+            {
+                id: 'pt2-q2',
+                sentence: 'I begyndelsen følte han sig ______, når han skulle tale med kunderne.',
+                sentenceEn: 'In the beginning he felt insecure when he had to talk to the customers.',
+                answer: 'usikker',
+                blank: 'usikker',
+                hint: 'Ikke at have selvtillid nok (lacking confidence).',
+                options: ['usikker', 'svært', 'chatte', 'skole']
+            },
+            {
+                id: 'pt2-q3',
+                sentence: 'Fællesskabet gav ham et ______, som han havde savnet siden flytningen.',
+                sentenceEn: 'The community gave him a fellowship that he had missed since the move.',
+                answer: 'fællesskab',
+                blank: 'fællesskab',
+                hint: 'Det at være sammen med andre (fellowship / community).',
+                options: ['fællesskab', 'netværk', 'madklub', 'lejlighed']
+            },
+            {
+                id: 'pt2-q4',
+                sentence: 'For at forbedre sit sprog meldte Ahmed sig også til et aftenkursus på ______.',
+                sentenceEn: 'To improve his language Ahmed signed up for an evening course at the language school.',
+                answer: 'sprogskolen',
+                blank: 'sprogskolen',
+                hint: 'Et sted man lærer sprog (a place to learn languages).',
+                options: ['sprogskolen', 'skole', 'kontor', 'fremtid']
+            },
+            {
+                id: 'pt2-q5',
+                sentence: 'Han brugte sin mobil til at ______ med kollegerne.',
+                sentenceEn: 'He used his mobile to chat with colleagues.',
+                answer: 'chatte',
+                blank: 'chatte',
+                hint: 'At skrive beskeder online (to send messages online).',
+                options: ['chatte', 'usikker', 'skole', 'telefon']
+            },
+            {
+                id: 'pt2-q6',
+                sentence: 'I starten var det ______ at følge trænerens instruktioner.',
+                sentenceEn: 'At first it was difficult to follow the coach\'s instructions.',
+                answer: 'svært',
+                blank: 'svært',
+                hint: 'Ikke nemt (not easy).',
+                options: ['svært', 'usikker', 'hobby', 'netværk']
+            },
+            {
+                id: 'pt2-q7',
+                sentence: 'På en af turene købte han endelig nye møbler til sin ______.',
+                sentenceEn: 'On one of the trips he finally bought new furniture for his apartment.',
+                answer: 'lejlighed',
+                blank: 'lejlighed',
+                hint: 'En bolig (an apartment / flat).',
+                options: ['lejlighed', 'fremtid', 'kontor', 'telefon']
+            },
+            {
+                id: 'pt2-q8',
+                sentence: 'Med tiden udviklede Ahmed et stærkt ______ i lokalsamfundet.',
+                sentenceEn: 'Over time Ahmed developed a strong network in the local community.',
+                answer: 'netværk',
+                blank: 'netværk',
+                hint: 'Mange kontakter og relationer (a network of contacts).',
+                options: ['netværk', 'fællesskab', 'madklub', 'hobby']
+            },
+            {
+                id: 'pt2-q9',
+                sentence: 'Ahmed er glad for sin beslutning og ser frem til sin ______ i Danmark.',
+                sentenceEn: 'Ahmed is happy with his decision and looks forward to his future in Denmark.',
+                answer: 'fremtid',
+                blank: 'fremtid',
+                hint: 'Tiden der kommer efter nu (the time to come).',
+                options: ['fremtid', 'lejlighed', 'sprogskolen', 'madklub']
+            }
+        ]
+    },
+    {
+        id: 'pd2-practice-test-3',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 2 - Opgave 3',
+        typeEn: 'Reading Comprehension 2 - Gap Fill (Test 3)',
+        level: 'PD2',
+        lesson: {
+            title: 'Thomas starter på universitetet',
+            titleEn: 'Thomas starts at university',
+            topics: ['vocabulary', 'context'],
+            content: `Practice Test 3 from the official test bank. Fill in the missing words from the word bank.`
+        },
+        questions: [
+            {
+                id: 'pt3-q1',
+                sentence: 'I starten kendte han ikke nogen i byen og følte sig ______.',
+                sentenceEn: 'In the beginning he didn\'t know anyone in the city and felt lonely.',
+                answer: 'ensom',
+                blank: 'ensom',
+                hint: 'Når man savner selskab (lonely).',
+                options: ['ensom', 'tale', 'hjemme', 'opbygget']
+            },
+            {
+                id: 'pt3-q2',
+                sentence: 'Han fandt hurtigt et værelse i et ______ nær campus.',
+                sentenceEn: 'He quickly found a room in a dormitory near campus.',
+                answer: 'kollegium',
+                blank: 'kollegium',
+                hint: 'Bolig for studerende (dormitory).',
+                options: ['kollegium', 'biblioteket', 'hjemme', 'sport']
+            },
+            {
+                id: 'pt3-q3',
+                sentence: 'Han meldte sig til en løbeklub for at holde sig i form og møde nye ______.',
+                sentenceEn: 'He joined a running club to stay in shape and meet new friends.',
+                answer: 'venner',
+                blank: 'venner',
+                hint: 'Personer man har et godt forhold til (friends).',
+                options: ['venner', 'dyr', 'bøger', 'smag']
+            },
+            {
+                id: 'pt3-q4',
+                sentence: 'Han skulle læse mange sider hver uge og skrive ______ opgaver.',
+                sentenceEn: 'He had to read many pages every week and write academic assignments.',
+                answer: 'akademiske',
+                blank: 'akademiske',
+                hint: 'Opgaver på universitetet (academic).',
+                options: ['akademiske', 'bøger', 'ensom', 'tjener']
+            },
+            {
+                id: 'pt3-q5',
+                sentence: 'Han ringede derfor ofte hjem for at ______ med sine forældre og få gode råd.',
+                sentenceEn: 'Therefore he often called home to talk with his parents and get good advice.',
+                answer: 'tale',
+                blank: 'tale',
+                hint: 'At snakke (to talk).',
+                options: ['tale', 'opbygget', 'smag', 'humor']
+            },
+            {
+                id: 'pt3-q6',
+                sentence: 'Hans mad ______ blev bedre, og han opdagede, hvor hyggeligt det er at lave mad sammen.',
+                sentenceEn: 'His food taste improved, and he discovered how cozy it is to cook together.',
+                answer: 'smag',
+                blank: 'smag',
+                hint: 'Substantiv: Evnen til at vurdere mad (taste).',
+                options: ['smag', 'humor', 'sport', 'tjener']
+            },
+            {
+                id: 'pt3-q7',
+                sentence: 'Efter eksamen fandt han et studiejob som ______ på en café.',
+                sentenceEn: 'After the exam he found a student job as a waiter at a café.',
+                answer: 'tjener',
+                blank: 'tjener',
+                hint: 'En person der serverer mad (a waiter).',
+                options: ['tjener', 'kollegium', 'venner', 'dyr']
+            },
+            {
+                id: 'pt3-q8',
+                sentence: 'Han ﬁk ﬂere nye venner og følte sig efterhånden ______ i København.',
+                sentenceEn: 'He made more new friends and eventually felt at home in Copenhagen.',
+                answer: 'hjemme',
+                blank: 'hjemme',
+                hint: 'At føle sig tilpas, som var man i sit eget hus (at home).',
+                options: ['hjemme', 'ensom', 'tale', 'opbygget']
+            },
+            {
+                id: 'pt3-q9',
+                sentence: 'Han har ______ et lille netværk af mennesker, som han kan dele glæder og udfordringer med.',
+                sentenceEn: 'He has built up a small network of people with whom he can share joys and challenges.',
+                answer: 'opbygget',
+                blank: 'opbygget',
+                hint: 'At skabe eller etablere noget (built up).',
+                options: ['opbygget', 'venner', 'biblioteket', 'akademiske']
+            }
+        ]
+    },
+    {
+        id: 'pd2-practice-test-4',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 2 - Opgave 3',
+        typeEn: 'Reading Comprehension 2 - Gap Fill (Test 4)',
+        level: 'PD2',
+        lesson: {
+            title: 'Jamal i Danmark',
+            titleEn: 'Jamal in Denmark',
+            topics: ['vocabulary', 'context'],
+            content: `Practice Test 4 from the official test bank. Fill in the missing words from the word bank.`
+        },
+        questions: [
+            {
+                id: 'pt4-q1',
+                sentence: 'Han meldte sig hurtigt til en sprogskole, hvor han mødte ______ udlændinge.',
+                sentenceEn: 'He quickly signed up for a language school where he met other foreigners.',
+                answer: 'andre',
+                blank: 'andre',
+                hint: 'Nogle flere (other).',
+                options: ['andre', 'være', 'besøge', 'landsby']
+            },
+            {
+                id: 'pt4-q2',
+                sentence: 'I begyndelsen syntes han, at det danske vejr var ______ og mørkt.',
+                sentenceEn: 'In the beginning he thought the Danish weather was cold and dark.',
+                answer: 'kolde',
+                blank: 'kolde',
+                hint: 'Når temperaturen er lav (cold).',
+                options: ['kolde', 'kede', 'ringe', 'svært']
+            },
+            {
+                id: 'pt4-q3',
+                sentence: 'Han brugte derfor mange aftener på at ______ med dem på videoopkald.',
+                sentenceEn: 'He therefore spent many evenings calling them on video calls.',
+                answer: 'ringe',
+                blank: 'ringe',
+                hint: 'At slå på tråden / ringe op (to call/ring).',
+                options: ['ringe', 'hjælpe', 'besøge', 'humor']
+            },
+            {
+                id: 'pt4-q4',
+                sentence: 'Han tilmeldte sig en fodboldklub, hvor han fandt et godt ______.',
+                sentenceEn: 'He joined a football club where he found a good community.',
+                answer: 'fællesskab',
+                blank: 'fællesskab',
+                hint: 'Det at være en del af en gruppe (community / fellowship).',
+                options: ['fællesskab', 'liv', 'relation', 'landsby']
+            },
+            {
+                id: 'pt4-q5',
+                sentence: 'Hans ______ for dansk mad voksede langsomt.',
+                sentenceEn: 'His taste for Danish food grew slowly.',
+                answer: 'smag',
+                blank: 'smag',
+                hint: 'Noget man synes godt om / madoplevelse (taste).',
+                options: ['smag', 'hjælpe', 'andre', 'humor']
+            },
+            {
+                id: 'pt4-q6',
+                sentence: 'På sprogskolen ﬁk han en god ______ med sin lærer.',
+                sentenceEn: 'At the language school he got a good relationship with his teacher.',
+                answer: 'relation',
+                blank: 'relation',
+                hint: 'En forbindelse eller et forhold (relationship).',
+                options: ['relation', 'fællesskab', 'andre', 'besøge']
+            },
+            {
+                id: 'pt4-q7',
+                sentence: 'Snart turde han spørge om hjælp, når noget var ______.',
+                sentenceEn: 'Soon he dared to ask for help when something was difficult.',
+                answer: 'svært',
+                blank: 'svært',
+                hint: 'Ikke let (difficult).',
+                options: ['svært', 'kede', 'kolde', 'ringe']
+            },
+            {
+                id: 'pt4-q8',
+                sentence: 'Han synes, det er meningsfuldt at ______ for andre mennesker.',
+                sentenceEn: 'He thinks it is meaningful to help other people.',
+                answer: 'hjælpe',
+                blank: 'hjælpe',
+                hint: 'At gøre ting lettere for folk i nød (to help).',
+                options: ['hjælpe', 'være', 'besøge', 'ringe']
+            },
+            {
+                id: 'pt4-q9',
+                sentence: 'Han er stolt af at have skabt et nyt ______ i Danmark.',
+                sentenceEn: 'He is proud to have created a new life in Denmark.',
+                answer: 'liv',
+                blank: 'liv',
+                hint: 'Tilværelse (life).',
+                options: ['liv', 'fællesskab', 'relation', 'landsby']
+            }
+        ]
+    },
+    {
+        id: 'pd2-practice-test-5',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 2 - Opgave 3',
+        typeEn: 'Reading Comprehension 2 - Gap Fill (Test 5)',
+        level: 'PD2',
+        lesson: {
+            title: 'Ahmed flytter til Danmark (Version 2)',
+            titleEn: 'Ahmed moves to Denmark (Version 2)',
+            topics: ['vocabulary', 'context'],
+            content: `Practice Test 5 from the official test bank. Fill in the missing words from the word bank.`
+        },
+        questions: [
+            {
+                id: 'pt5-q1',
+                sentence: 'Han begyndte på en danskuddannelse og mødte andre ______ udlændinge.',
+                sentenceEn: 'He started a Danish education and met other newly arrived foreigners.',
+                answer: 'nytilﬂyttede',
+                blank: 'nytilﬂyttede',
+                hint: 'Nogen, der lige er ankommet (newly arrived).',
+                options: ['nytilﬂyttede', 'venner', 'kammeratskab', 'aktiv']
+            },
+            {
+                id: 'pt5-q2',
+                sentence: 'Vejret virkede meget ______ om vinteren, og han savnede solen.',
+                sentenceEn: 'The weather seemed very cold in the winter, and he missed the sun.',
+                answer: 'kolde',
+                blank: 'kolde',
+                hint: 'Modsat af varmt (cold).',
+                options: ['kolde', 'samfund', 'ringe', 'svært']
+            },
+            {
+                id: 'pt5-q3',
+                sentence: 'Han ringede ofte til sin familie for at ______ med dem.',
+                sentenceEn: 'He often called his family to talk to them.',
+                answer: 'ringe',
+                blank: 'ringe',
+                hint: 'At tage telefonisk kontakt (to call).',
+                options: ['ringe', 'træne', 'venner', 'relation']
+            },
+            {
+                id: 'pt5-q4',
+                sentence: 'Snart fandt han et frivilligt arbejde i ______, hvor han hjalp børn.',
+                sentenceEn: 'Soon he found voluntary work in the sports club, where he helped children.',
+                answer: 'sportsklubben',
+                blank: 'sportsklubben',
+                hint: 'Et sted hvor man spiller fodbold (the sports club).',
+                options: ['sportsklubben', 'samfund', 'værdier', 'plan']
+            },
+            {
+                id: 'pt5-q5',
+                sentence: 'Der lærte han nye ______ og forbedrede sin danske udtale.',
+                sentenceEn: 'There he learned new friends and improved his Danish pronunciation.',
+                answer: 'venner',
+                blank: 'venner',
+                hint: 'Folk man kender godt (friends).',
+                options: ['venner', 'nytilﬂyttede', 'kammeratskab', 'smag']
+            },
+            {
+                id: 'pt5-q6',
+                sentence: 'Hans ______ for dansk mad voksede også, især efter at have smagt smørrebrød.',
+                sentenceEn: 'His taste for Danish food also grew, especially after tasting smørrebrød.',
+                answer: 'smag',
+                blank: 'smag',
+                hint: 'At kunne lide noget at spise (taste).',
+                options: ['smag', 'træne', 'kolde', 'relation']
+            },
+            {
+                id: 'pt5-q7',
+                sentence: 'Han udviklede en god ______ til sin lærer, som motiverede ham til at fortsætte.',
+                sentenceEn: 'He developed a good relationship with his teacher, who motivated him to continue.',
+                answer: 'relation',
+                blank: 'relation',
+                hint: 'Et bånd eller forhold til andre (relationship).',
+                options: ['relation', 'aktiv', 'værdier', 'plan']
+            },
+            {
+                id: 'pt5-q8',
+                sentence: 'Læreren motiverede ham til at fortsætte, selv når det var ______.',
+                sentenceEn: 'The teacher motivated him to continue, even when it was difficult.',
+                answer: 'svært',
+                blank: 'svært',
+                hint: 'Ikke nemt (difficult).',
+                options: ['svært', 'nytilﬂyttede', 'ringe', 'kolde']
+            },
+            {
+                id: 'pt5-q9',
+                sentence: 'I dag føler han sig ______ i lokalsamfundet og har lyst til at hjælpe andre.',
+                sentenceEn: 'Today he feels active in the local community and wants to help others.',
+                answer: 'aktiv',
+                blank: 'aktiv',
+                hint: 'Handlende; engageret (active).',
+                options: ['aktiv', 'træne', 'samfund', 'venner']
+            }
+        ]
+    },
+    {
         id: 'pd2-practice-test-6',
         year: 2024,
         season: 'Practice',

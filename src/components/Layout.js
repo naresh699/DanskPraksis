@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, Suspense } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 
@@ -23,15 +23,13 @@ function SidebarNav() {
 
     const [isAdmin, setIsAdmin] = useState(false);
 
-    // Run once on mount to check cookie reliably
-    import('react').then(({ useEffect }) => {
-        useEffect(() => {
-            const role = Cookies.get('dansk-user-role');
-            if (role === 'admin' || pathname.startsWith('/admin')) {
-                setIsAdmin(true);
-            }
-        }, [pathname]);
-    }).catch(() => { });
+
+    useEffect(() => {
+        const role = Cookies.get('dansk-user-role');
+        if (role === 'admin' || pathname.startsWith('/admin')) {
+            setIsAdmin(true);
+        }
+    }, [pathname]);
 
     return (
         <nav className="sidebar-nav">
