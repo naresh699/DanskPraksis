@@ -789,6 +789,202 @@ Read the text and fill in the missing words based on the context of the sentence
             }
         ]
     },
+    {
+        id: 'pd2-practice-test-9',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 2 - Opgave 3',
+        typeEn: 'Reading Comprehension 2 - Gap Fill (Test 9)',
+        level: 'PD2',
+        lesson: {
+            title: 'Mahmouds nye liv i Danmark',
+            titleEn: 'Mahmoud\'s New Life in Denmark',
+            topics: ['vocabulary', 'context'],
+            content: `Practice Test 9 from the official test bank. Fill in the missing words from the word bank.`
+        },
+        questions: [
+            {
+                id: 'pt9-q1',
+                sentence: 'I begyndelsen boede han hos sin ______ familie i Aarhus.',
+                sentenceEn: 'In the beginning, he lived with his supportive family in Aarhus.',
+                answer: 'støtte',
+                blank: 'støtte',
+                hint: 'Nogen der hjælper / giver hjælp (support/supportive).',
+                options: ['støtte', 'savede', 'varmt', 'delt']
+            },
+            {
+                id: 'pt9-q2',
+                sentence: 'På universitetet mødte han mange ______ studerende fra hele verden.',
+                sentenceEn: 'At the university, he met many friendly students from all over the world.',
+                answer: 'venlige',
+                blank: 'venlige',
+                hint: 'Folk der er søde og imødekommende (friendly).',
+                options: ['venlige', 'holde', 'udtale', 'satte']
+            },
+            {
+                id: 'pt9-q3',
+                sentence: 'Det første halve år syntes han, at sproget var ______ at udtale.',
+                sentenceEn: 'The first half year he thought the language was difficult to pronounce.',
+                answer: 'svært',
+                blank: 'svært',
+                hint: 'Ikke nemt (difficult).',
+                options: ['svært', 'savede', 'varmt', 'delt']
+            },
+            {
+                id: 'pt9-q4',
+                sentence: 'For at forbedre sine færdigheder begyndte han at ______ med lokale.',
+                sentenceEn: 'To improve his skills, he started to spar (practice) with locals.',
+                answer: 'sparre',
+                blank: 'sparre',
+                hint: 'At tale med / øve sig med andre (to spar/practice).',
+                options: ['sparre', 'holde', 'udtale', 'satte']
+            },
+            {
+                id: 'pt9-q5',
+                sentence: 'Han deltog i en løbeklub, hvor han fandt et godt ______.',
+                sentenceEn: 'He joined a running club, where he found a good network.',
+                answer: 'netværk',
+                blank: 'netværk',
+                hint: 'En gruppe mennesker man kender (network).',
+                options: ['netværk', 'savede', 'varmt', 'delt']
+            },
+            {
+                id: 'pt9-q6',
+                sentence: 'Hans forkærlighed for dansk mad ______ langsomt.',
+                sentenceEn: 'His fondness for Danish food matured slowly.',
+                answer: 'modne',
+                blank: 'modne',
+                hint: 'At udvikle sig / blive voksen / modnes (mature).',
+                options: ['modne', 'holde', 'udtale', 'satte']
+            },
+            {
+                id: 'pt9-q7',
+                sentence: 'Han fik et deltidsjob og begyndte at ______ for sin egen lejlighed.',
+                sentenceEn: 'He got a part-time job and began to save for his own apartment.',
+                answer: 'satte',
+                blank: 'satte',
+                hint: 'At sætte penge til side (to put aside/save).',
+                options: ['satte', 'savede', 'varmt', 'delt']
+            },
+            {
+                id: 'pt9-q8',
+                sentence: 'Han valgte at blive i Danmark, fordi han ______ den åbne kultur.',
+                sentenceEn: 'He chose to stay in Denmark because he loves the open culture.',
+                answer: 'elsker',
+                blank: 'elsker',
+                hint: 'At holde meget af (to love).',
+                options: ['elsker', 'holde', 'udtale', 'sparre']
+            },
+            {
+                id: 'pt9-q9',
+                sentence: 'Han meldte sig som frivillig, så han kunne ______ sine erfaringer.',
+                sentenceEn: 'He volunteered so he could share his experiences.',
+                answer: 'dele',
+                blank: 'dele',
+                hint: 'At give noget til de andre (to share).',
+                options: ['dele', 'savede', 'varmt', 'delt']
+            }
+        ]
+    },
+    {
+        id: 'pd2-practice-test-10',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 2 - Opgave 3',
+        typeEn: 'Reading Comprehension 2 - Gap Fill (Test 10)',
+        level: 'PD2',
+        lesson: {
+            title: 'Mikkel flytter til København',
+            titleEn: 'Mikkel moves to Copenhagen',
+            topics: ['vocabulary', 'context'],
+            content: `Practice Test 10 from the official test bank. Fill in the missing words from the word bank.`
+        },
+        questions: [
+            {
+                id: 'pt10-q1',
+                sentence: 'Det var ______ for ham at finde rundt i det nye miljø.',
+                sentenceEn: 'It was difficult for him to find his way around the new environment.',
+                answer: 'svært',
+                blank: 'svært',
+                hint: 'Ikke nemt (difficult).',
+                options: ['svært', 'by', 'lange', 'madlavning']
+            },
+            {
+                id: 'pt10-q2',
+                sentence: 'Han savnede sine gamle ______ og familien hjemme i Jylland.',
+                sentenceEn: 'He missed his old friends and the family back in Jutland.',
+                answer: 'venner',
+                blank: 'venner',
+                hint: 'Mennesker man godt kan lide (friends).',
+                options: ['venner', 'undskyldning', 'musik', 'lange']
+            },
+            {
+                id: 'pt10-q3',
+                sentence: 'Han ______ hurtigt mange fælles interesser med de andre medlemmer.',
+                sentenceEn: 'He quickly shared many common interests with the other members.',
+                answer: 'delte',
+                blank: 'delte',
+                hint: 'Noget man har til fælles (shared).',
+                options: ['delte', 'by', 'lange', 'madlavning']
+            },
+            {
+                id: 'pt10-q4',
+                sentence: 'Det gav ham stor ______ at se børnene blive gladere og dygtigere.',
+                sentenceEn: 'It gave him great joy to see the children become happier and more skilled.',
+                answer: 'glæde',
+                blank: 'glæde',
+                hint: 'En følelse af at være glad (joy/happiness).',
+                options: ['glæde', 'undskyldning', 'musik', 'by']
+            },
+            {
+                id: 'pt10-q5',
+                sentence: 'Man lærer mest ved at ______ andre.',
+                sentenceEn: 'You learn the most by teaching others.',
+                answer: 'undervise',
+                blank: 'undervise',
+                hint: 'At lære andre noget (to teach).',
+                options: ['undervise', 'lange', 'madlavning', 'undskyldning']
+            },
+            {
+                id: 'pt10-q6',
+                sentence: 'Efter det første semester følte han sig mere ______.',
+                sentenceEn: 'After the first semester he felt more confident.',
+                answer: 'selvsikker',
+                blank: 'selvsikker',
+                hint: 'Når man tror på sig selv (confident).',
+                options: ['selvsikker', 'musik', 'by', 'lange']
+            },
+            {
+                id: 'pt10-q7',
+                sentence: 'Han fandt en god ______ med en studiekammerat.',
+                sentenceEn: 'He found a good friendship with a fellow student.',
+                answer: 'venskab',
+                blank: 'venskab',
+                hint: 'Et forhold til en ven (friendship).',
+                options: ['venskab', 'madlavning', 'undskyldning', 'musik']
+            },
+            {
+                id: 'pt10-q8',
+                sentence: 'Nu træner han to gange om ugen og har fået et endnu større ______.',
+                sentenceEn: 'Now he trains twice a week and has gained an even larger network.',
+                answer: 'netværk',
+                blank: 'netværk',
+                hint: 'Flere mennesker man kender (network).',
+                options: ['netværk', 'by', 'lange', 'madlavning']
+            },
+            {
+                id: 'pt10-q9',
+                sentence: 'Han ser frem til at blive færdiguddannet og ______ i Danmark.',
+                sentenceEn: 'He looks forward to graduating and living in Denmark.',
+                answer: 'bo',
+                blank: 'bo',
+                hint: 'At have sit hjem/adresse (to live).',
+                options: ['bo', 'undskyldning', 'musik', 'by']
+            }
+        ]
+    },
     // ============ 2023 ============
     {
         id: 'pd2-2023-sommer-laese1',

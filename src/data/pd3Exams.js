@@ -690,6 +690,184 @@ Read the text and fill in the missing words based on the context of the sentence
             }
         ]
     },
+    {
+        id: 'pd3-practice-test-9',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Delprøve 3',
+        typeEn: 'Gap Fill MCQ (Test 9)',
+        level: 'PD3',
+        lesson: {
+            title: 'Frivilligt arbejde',
+            titleEn: 'Volunteering',
+            topics: ['vocabulary', 'context', 'word-order-v2'],
+            content: `Practice Test 9 from the official test bank. Reading about voluntary work and engagement.`
+        },
+        questions: [
+            {
+                id: 'pt9-q1',
+                sentence: 'Uanset område kan frivilligt arbejde styrke det ______ bånd mellem mennesker og skabe nye venskaber.',
+                sentenceEn: 'Regardless of the area, voluntary work can strengthen the social bond between people and create new friendships.',
+                answer: 'sociale',
+                blank: 'sociale',
+                hint: 'Noget der har med samfundet og relationer at gøre (social).',
+                options: ['sociale', 'juridiske', 'matematiske', 'finansielle']
+            },
+            {
+                id: 'pt9-q2',
+                sentence: 'Frivilligt arbejde kan forbedre den mentale ______.',
+                sentenceEn: 'Voluntary work can improve mental health.',
+                answer: 'sundhed',
+                blank: 'sundhed',
+                hint: 'At have det godt i krop og sind (health).',
+                options: ['sundhed', 'skønhed', 'ferie', 'opmærksomhed']
+            },
+            {
+                id: 'pt9-q3',
+                sentence: 'Det kan være svært at ______ projekter, når bemandingen skifter hver uge.',
+                sentenceEn: 'It can be difficult to plan projects when the staffing changes every week.',
+                answer: 'planlægge',
+                blank: 'planlægge',
+                hint: 'At lægge en plan (to plan).',
+                options: ['planlægge', 'ignorere', 'skjule', 'forbyde']
+            },
+            {
+                id: 'pt9-q4',
+                sentence: 'For at undgå udbrændthed opfordrer eksperter til, at de frivillige får ______ støtte og klare forventninger.',
+                sentenceEn: 'To avoid burnout, experts encourage volunteers to receive sufficient support and clear expectations.',
+                answer: 'tilstrækkelig',
+                blank: 'tilstrækkelig',
+                hint: 'Nok / det der er brug for (sufficient).',
+                options: ['tilstrækkelig', 'spredt', 'unødvendig', 'improviseret']
+            },
+            {
+                id: 'pt9-q5',
+                sentence: 'På længere sigt er det vigtigt, at frivilligt arbejde bliver anerkendt som en del af den sociale ______.',
+                sentenceEn: 'In the long term, it is important that voluntary work is recognised as part of the social infrastructure.',
+                answer: 'infrastruktur',
+                blank: 'infrastruktur',
+                hint: 'Det der får samfundet til at hænge sammen (infrastructure).',
+                options: ['infrastruktur', 'diskussion', 'udsigt', 'skolegård']
+            },
+            {
+                id: 'pt9-q6',
+                sentence: 'Kurser og ______ kan løfte niveauet og give de frivillige et fagligt fundament.',
+                sentenceEn: 'Courses and education can raise the level and give volunteers a professional foundation.',
+                answer: 'uddannelse',
+                blank: 'uddannelse',
+                hint: 'At lære noget / at gå i skole (education).',
+                options: ['uddannelse', 'konkurrence', 'sladder', 'leg']
+            },
+            {
+                id: 'pt9-q7',
+                sentence: 'Det kan skyldes travlhed på job eller manglende ______ til at involvere sig.',
+                sentenceEn: 'It may be due to busyness at work or a lack of surplus energy to get involved.',
+                answer: 'overskud',
+                blank: 'overskud',
+                hint: 'At have mere end nok energi (surplus / extra energy).',
+                options: ['overskud', 'katastrofe', 'madpakke', 'kalender']
+            },
+            {
+                id: 'pt9-q8',
+                sentence: 'Men det bør aldrig erstatte professionel ______ på områder, hvor der er brug for særlige kompetencer.',
+                sentenceEn: 'But it should never replace professional help in areas where special skills are needed.',
+                answer: 'hjælp',
+                blank: 'hjælp',
+                hint: 'Assistance / støtte (help).',
+                options: ['hjælp', 'humor', 'vinter', 'energi']
+            }
+        ]
+    },
+    {
+        id: 'pd3-practice-test-10',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Delprøve 3',
+        typeEn: 'Gap Fill MCQ (Test 10)',
+        level: 'PD3',
+        lesson: {
+            title: 'Fjernundervisning for voksne',
+            titleEn: 'Distance Learning for Adults',
+            topics: ['vocabulary', 'context', 'word-order-v2'],
+            content: `Practice Test 10 from the official test bank. Reading about distance learning and online courses.`
+        },
+        questions: [
+            {
+                id: 'pt10-q1',
+                sentence: 'Deltagerne savner ofte den ______ kontakt, man får i et klasseværelse.',
+                sentenceEn: 'The participants often miss the social contact you get in a classroom.',
+                answer: 'sociale',
+                blank: 'sociale',
+                hint: 'Noget der har med samvær at gøre (social).',
+                options: ['sociale', 'økonomiske', 'juridiske', 'tekniske']
+            },
+            {
+                id: 'pt10-q2',
+                sentence: 'Det gør det lettere at ______ arbejde, familie og uddannelse.',
+                sentenceEn: 'It makes it easier to balance work, family, and education.',
+                answer: 'balancere',
+                blank: 'balancere',
+                hint: 'At finde en ligevægt / fordele jævnt (balance).',
+                options: ['balancere', 'afbryde', 'forbyde', 'ignorere']
+            },
+            {
+                id: 'pt10-q3',
+                sentence: 'Underviseren skal støtte deltagerne digitalt og sørge for, at de ______ opgaverne.',
+                sentenceEn: 'The teacher must support the participants digitally and ensure that they complete the tasks.',
+                answer: 'fuldfører',
+                blank: 'fuldfører',
+                hint: 'At gøre noget færdigt (complete/finish).',
+                options: ['fuldfører', 'forkorter', 'forlænger', 'forhandler']
+            },
+            {
+                id: 'pt10-q4',
+                sentence: 'Et godt ______ med ergonomisk stol og skærm kan forhindre smerter i ryg og nakke.',
+                sentenceEn: 'A good workspace with an ergonomic chair and monitor can prevent back and neck pain.',
+                answer: 'arbejdsområde',
+                blank: 'arbejdsområde',
+                hint: 'Stedet hvor man arbejder (workspace).',
+                options: ['arbejdsområde', 'køkken', 'kantine', 'trappeopgang']
+            },
+            {
+                id: 'pt10-q5',
+                sentence: 'Eksperter anbefaler små pauser og regelmæssig ______ for at holde koncentrationen.',
+                sentenceEn: 'Experts recommend short breaks and regular exercise to maintain concentration.',
+                answer: 'motion',
+                blank: 'motion',
+                hint: 'Fysisk aktivitet (exercise).',
+                options: ['motion', 'overspringshandling', 'økonomi', 'shopping']
+            },
+            {
+                id: 'pt10-q6',
+                sentence: 'Nogle føler sig ______ foran skærmen og savner følelsen af fællesskab.',
+                sentenceEn: 'Some feel lonely in front of the screen and miss the feeling of community.',
+                answer: 'ensomme',
+                blank: 'ensomme',
+                hint: 'Når man savner selskab (lonely).',
+                options: ['ensomme', 'engagerede', 'begejstrede', 'entusiastiske']
+            },
+            {
+                id: 'pt10-q7',
+                sentence: 'Andre bliver mere ______, når de kan styre tempoet selv.',
+                sentenceEn: 'Others become more inspired when they can control the pace themselves.',
+                answer: 'inspirerede',
+                blank: 'inspirerede',
+                hint: 'At få lyst og idéer til at gøre noget (inspired).',
+                options: ['inspirerede', 'frustrerede', 'passive', 'forvirrede']
+            },
+            {
+                id: 'pt10-q8',
+                sentence: 'I sidste ende handler det om at finde en ______ balance mellem selvstændighed og støtte.',
+                sentenceEn: 'Ultimately, it is about finding a flexible balance between independence and support.',
+                answer: 'fleksibel',
+                blank: 'fleksibel',
+                hint: 'Kan ændres og tilpasses (flexible).',
+                options: ['fleksibel', 'simpel', 'tilfældig', 'hurtig']
+            }
+        ]
+    },
     // ============ 2022 ============
     {
         id: 'pd3-2022-sommer-laese1',
