@@ -19,6 +19,19 @@ function SidebarNav() {
     const searchParams = useSearchParams();
     const currentLevel = searchParams.get('level');
 
+    const [isAdmin, setIsAdmin] = useState(false);
+
+    // Run once on mount to check cookie
+    import('react').then(({ useEffect }) => {
+        useEffect(() => {
+            const cookies = document.cookie.split('; ');
+            const roleCookie = cookies.find(row => row.startsWith('dansk-user-role='));
+            if (roleCookie && roleCookie.split('=')[1] === 'admin') {
+                setIsAdmin(true);
+            }
+        }, []);
+    }).catch(() => { });
+
     return (
         <nav className="sidebar-nav">
             <div className="sidebar-section-title">📑 Table of Contents</div>
@@ -51,7 +64,22 @@ function SidebarNav() {
                 <span className="sidebar-link-icon">🟣</span>
                 PD3 — Advanced
             </Link>
-            <div style={{ marginTop: 32, paddingTop: 16, borderTop: '1px solid rgba(0,0,0,0.05)' }}>
+
+            {isAdmin && (
+                <div style={{ marginTop: 24 }}>
+                    <div className="sidebar-section-title">⚙️ Admin Control</div>
+                    <Link
+                        href="/admin/users"
+                        className={`sidebar-link ${pathname === '/admin/users' ? 'active' : ''}`}
+                        style={{ background: 'rgba(14, 116, 144, 0.05)', color: '#0e7490' }}
+                    >
+                        <span className="sidebar-link-icon">🛡️</span>
+                        Admin Dashboard
+                    </Link>
+                </div>
+            )}
+
+            <div style={{ marginTop: isAdmin ? 16 : 32, paddingTop: 16, borderTop: '1px solid rgba(0,0,0,0.05)' }}>
                 <button
                     onClick={async () => {
                         await fetch('/api/auth/logout', { method: 'POST' });
