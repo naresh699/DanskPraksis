@@ -2,6 +2,107 @@
 // Each exam has: id, year, season, type, lesson, questions
 
 export const pd2Exams = [
+    // ============ PRACTICE EXAMS ============
+    {
+        id: 'pd2-practice-test-1',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 2 - Opgave 3',
+        typeEn: 'Reading Comprehension 2 - Gap Fill',
+        level: 'PD2',
+        lesson: {
+            title: 'Maria fra udlandet',
+            titleEn: 'Maria from abroad',
+            topics: ['vocabulary', 'context'],
+            content: `This is Practice Test 1 from the official test bank materials for PD2.
+            
+Read the text and fill in the missing words based on the context of the sentence.`
+        },
+        questions: [
+            {
+                id: 'pt1-q1',
+                sentence: 'Hun meldte sig hurtigt til en sprogskole, hvor hun mødte andre ______ udlændinge.',
+                sentenceEn: 'She quickly signed up for a language school, where she met other young foreigners.',
+                answer: 'unge',
+                blank: 'unge',
+                hint: 'Flertal (plural) of ung.',
+                options: ['kolde', 'ringe', 'unge', 'svært']
+            },
+            {
+                id: 'pt1-q2',
+                sentence: 'I begyndelsen syntes hun, at det danske vejr var ______.',
+                sentenceEn: 'In the beginning she thought the Danish weather was cold.',
+                answer: 'kolde',
+                blank: 'kolde',
+                hint: 'Adjective matching "vejr".',
+                options: ['kolde', 'ringe', 'unge', 'svært']
+            },
+            {
+                id: 'pt1-q3',
+                sentence: 'Hun brugte derfor mange aftener på at ______ med dem over video.',
+                sentenceEn: 'She therefore spent many evenings calling them over video.',
+                answer: 'ringe',
+                blank: 'ringe',
+                hint: 'At tale i telefon (to call using video/phone).',
+                options: ['tale', 'ringe', 'kommunikation', 'tage sig']
+            },
+            {
+                id: 'pt1-q4',
+                sentence: 'Efter et par måneder begyndte hun at tage del i forskellige aktiviteter i ______.',
+                sentenceEn: 'After a couple of months she started taking part in various activities in the village.',
+                answer: 'landsbyen',
+                blank: 'landsbyen',
+                hint: 'Et lille samfund (a small town/village).',
+                options: ['landsbyen', 'netværk', 'kammeratskab', 'plan']
+            },
+            {
+                id: 'pt1-q5',
+                sentence: 'Hendes ______ for dansk mad voksede langsomt.',
+                sentenceEn: 'Her taste for Danish food grew slowly.',
+                answer: 'smag',
+                blank: 'smag',
+                hint: 'Noget med mad at gøre (something to do with food/taste).',
+                options: ['smag', 'plan', 'humor', 'kost']
+            },
+            {
+                id: 'pt1-q6',
+                sentence: 'På sprogskolen fik hun en god ______ med sin lærer.',
+                sentenceEn: 'At the language school she established good communication with her teacher.',
+                answer: 'kommunikation',
+                blank: 'kommunikation',
+                hint: 'At tale og forstå hinanden (talking and understanding each other).',
+                options: ['tale', 'kammeratskab', 'kommunikation', 'humor']
+            },
+            {
+                id: 'pt1-q7',
+                sentence: 'Snart turde hun spørge om hjælp, når noget var ______.',
+                sentenceEn: 'Soon she dared to ask for help when something was difficult.',
+                answer: 'svært',
+                blank: 'svært',
+                hint: 'Ikke nemt (not easy).',
+                options: ['svært', 'ringe', 'kolde', 'unge']
+            },
+            {
+                id: 'pt1-q8',
+                sentence: 'Hun synes, det er meningsfuldt at ______ for andre mennesker.',
+                sentenceEn: 'She thinks it is meaningful to care for other people.',
+                answer: 'tage sig',
+                blank: 'tage sig',
+                hint: 'At drage omsorg for (to take care of).',
+                options: ['tale', 'bo', 'tage sig', 'plan']
+            },
+            {
+                id: 'pt1-q9',
+                sentence: 'Hun er stolt af at have skabt et nyt ______ i Danmark.',
+                sentenceEn: 'She is proud to have created a new network in Denmark.',
+                answer: 'netværk',
+                blank: 'netværk',
+                hint: 'En gruppe af venner og bekendte (a group of friends).',
+                options: ['netværk', 'kammeratskab', 'landsbyen', 'kommunikation']
+            }
+        ]
+    },
     // ============ 2023 ============
     {
         id: 'pd2-2023-sommer-laese1',

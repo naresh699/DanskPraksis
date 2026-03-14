@@ -2,6 +2,98 @@
 // Advanced level exams focusing on more complex grammar and vocabulary
 
 export const pd3Exams = [
+    // ============ PRACTICE EXAMS ============
+    {
+        id: 'pd3-practice-test-1',
+        year: 2024,
+        season: 'Practice',
+        seasonEn: 'Practice',
+        type: 'Læseforståelse 3',
+        typeEn: 'Reading Comprehension 3 - Gap Fill',
+        level: 'PD3',
+        lesson: {
+            title: 'Arbejde hjemmefra',
+            titleEn: 'Working from home',
+            topics: ['vocabulary', 'context'],
+            content: `This is Practice Test 1 from the official test bank materials for PD3.
+            
+Read the text and fill in the missing words based on the context of the sentence.`
+        },
+        questions: [
+            {
+                id: 'pt1-q1',
+                sentence: 'Nogle medarbejdere føler sig isolerede, mens andre savner den ______ kontakt, der opstår omkring kaffemaskinen.',
+                sentenceEn: 'Some employees feel isolated, while others miss the social contact that occurs around the coffee machine.',
+                answer: 'sociale',
+                blank: 'sociale',
+                hint: 'Interaktion med andre mennesker (Interaction with other people).',
+                options: ['sociale', 'juridiske', 'fysiske', 'økonomiske']
+            },
+            {
+                id: 'pt1-q2',
+                sentence: 'Det giver fleksibilitet og gør det nemmere at ______ arbejdsliv og familie.',
+                sentenceEn: 'It provides flexibility and makes it easier to balance work life and family.',
+                answer: 'balancere',
+                blank: 'balancere',
+                hint: 'At finde ligevægt mellem to ting (To find equilibrium between two things).',
+                options: ['forbyde', 'balancere', 'kæmpe', 'reducere']
+            },
+            {
+                id: 'pt1-q3',
+                sentence: 'Andre virksomheder mener, at innovation opstår, når mennesker mødes fysisk, og de ______ derfor deres ansatte til at møde op.',
+                sentenceEn: 'Other companies believe that innovation occurs when people meet physically, and they therefore require their employees to show up.',
+                answer: 'kræver',
+                blank: 'kræver',
+                hint: 'At forlange noget (to demand or require).',
+                options: ['inviterer', 'fraråder', 'trækker', 'kræver']
+            },
+            {
+                id: 'pt1-q4',
+                sentence: 'Mange har opdaget, at spisebordet ikke giver den ______ støtte, som en god kontorstol gør.',
+                sentenceEn: 'Many have discovered that the dining table does not provide the ergonomic support that a good office chair does.',
+                answer: 'ergonomiske',
+                blank: 'ergonomiske',
+                hint: 'Tilpasset kroppens bygning og fysik (adapted to the body\'s build).',
+                options: ['langsomme', 'nødvendige', 'ergonomiske', 'uregelmæssige']
+            },
+            {
+                id: 'pt1-q5',
+                sentence: 'Derfor anbefaler eksperter, at man indretter et særligt ______ til arbejde.',
+                sentenceEn: 'Therefore experts recommend that one sets up a dedicated workspace for work.',
+                answer: 'arbejdsområde',
+                blank: 'arbejdsområde',
+                hint: 'Et sted at arbejde (a place to work).',
+                options: ['værksted', 'arbejdsområde', 'gymnasiesal', 'parkeringsplads']
+            },
+            {
+                id: 'pt1-q6',
+                sentence: 'De peger også på, at små pauser og regelmæssig ______ kan være med til at forebygge stress.',
+                sentenceEn: 'They also point out that short breaks and regular exercise can help prevent stress.',
+                answer: 'motion',
+                blank: 'motion',
+                hint: 'Fysisk aktivitet (physical activity).',
+                options: ['motion', 'økonomi', 'madlavning', 'shopping']
+            },
+            {
+                id: 'pt1-q7',
+                sentence: 'Mens nogle trives med roen og friheden, føler andre sig mere ______ og motiverede, når de er omgivet af kolleger.',
+                sentenceEn: 'While some thrive on quiet and freedom, others feel more inspired and motivated when surrounded by colleagues.',
+                answer: 'inspirerede',
+                blank: 'inspirerede',
+                hint: 'Påvirket af gode ideer (affected by good ideas / inspired).',
+                options: ['inspirerede', 'uengagerede', 'frustrerede', 'forvirrede']
+            },
+            {
+                id: 'pt1-q8',
+                sentence: 'I sidste ende handler det om at finde en ______ balance, der tilgodeser både virksomheden og medarbejderen.',
+                sentenceEn: 'Ultimately it is about finding a realistic balance that caters to both the company and the employee.',
+                answer: 'realistisk',
+                blank: 'realistisk',
+                hint: 'Noget der kan lade sig gøre i virkeligheden (something achievable in reality).',
+                options: ['realistisk', 'automatisk', 'kunstig', 'tilfældig']
+            }
+        ]
+    },
     // ============ 2022 ============
     {
         id: 'pd3-2022-sommer-laese1',
