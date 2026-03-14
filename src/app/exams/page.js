@@ -11,7 +11,7 @@ function ExamsContent() {
     const searchParams = useSearchParams();
     const levelFromUrl = searchParams.get('level') || 'all';
 
-    const allExams = useMemo(() => [...pd2Exams, ...pd3Exams], []);
+    const allExams = [...pd2Exams, ...pd3Exams];
 
     // Derive filter directly from URL params so it updates on every navigation
     const filteredExams = useMemo(() => {
@@ -19,7 +19,7 @@ function ExamsContent() {
             if (levelFromUrl !== 'all' && e.level !== levelFromUrl) return false;
             return true;
         });
-    }, [allExams, levelFromUrl]);
+    }, [levelFromUrl]);
 
     const years = [...new Set(allExams.map(e => e.year))].sort((a, b) => b - a);
 
