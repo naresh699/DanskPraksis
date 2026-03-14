@@ -13,7 +13,7 @@ export default function SpeechButton({ text, lang = 'da-DK', size = 'normal' }) 
 
         const utterance = new SpeechSynthesisUtterance(text);
         utterance.lang = lang;
-        utterance.rate = 0.65;
+        utterance.rate = 0.35;
         utterance.pitch = 1;
 
         // Try to find a Danish voice

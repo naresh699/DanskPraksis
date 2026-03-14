@@ -51,6 +51,19 @@ function SidebarNav() {
                 <span className="sidebar-link-icon">🟣</span>
                 PD3 — Advanced
             </Link>
+            <div style={{ marginTop: 32, paddingTop: 16, borderTop: '1px solid rgba(0,0,0,0.05)' }}>
+                <button
+                    onClick={async () => {
+                        await fetch('/api/auth/logout', { method: 'POST' });
+                        window.location.href = '/login';
+                    }}
+                    className="sidebar-link"
+                    style={{ background: 'transparent', border: 'none', width: '100%', textAlign: 'left', cursor: 'pointer', color: 'var(--text-muted)' }}
+                >
+                    <span className="sidebar-link-icon">🚪</span>
+                    Log ud
+                </button>
+            </div>
         </nav>
     );
 }

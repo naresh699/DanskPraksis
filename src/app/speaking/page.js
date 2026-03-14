@@ -264,7 +264,7 @@ export default function SpeakingPage() {
                                 onClick={() => {
                                     const fullText = activeSpeech.speech.map(l => l.da).join('. ');
                                     const u = new SpeechSynthesisUtterance(fullText);
-                                    u.lang = 'da-DK'; u.rate = 0.6;
+                                    u.lang = 'da-DK'; u.rate = 0.35;
                                     const voices = window.speechSynthesis.getVoices();
                                     const daVoice = voices.find(v => v.lang.startsWith('da'));
                                     if (daVoice) u.voice = daVoice;
