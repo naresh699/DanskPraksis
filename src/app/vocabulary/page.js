@@ -5,7 +5,9 @@ import Link from 'next/link';
 import Layout from '@/components/Layout';
 import SpeechButton from '@/components/SpeechButton';
 import ClockFace from '@/components/ClockFace';
+import VideoReference from '@/components/VideoReference';
 import { vocabulary } from '@/data/vocabulary';
+import { videoReferences } from '@/data/videoReferences';
 
 const categories = [
     { key: 'body', label: '🦴 Body (Kroppen)', hasEmoji: true },
@@ -79,6 +81,11 @@ export default function VocabularyPage() {
                     </button>
                 ))}
             </div>
+
+            {/* Video Reference (if any) */}
+            {!search && videoReferences[activeTab] && (
+                <VideoReference video={videoReferences[activeTab]} />
+            )}
 
             {/* Visual Grid for emoji categories */}
             {activeCategory?.hasEmoji && !search ? (

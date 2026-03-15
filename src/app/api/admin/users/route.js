@@ -35,7 +35,8 @@ export async function POST(request) {
 
         return NextResponse.json({ success: true });
     } catch (error) {
-        return NextResponse.json({ error: 'Server error' }, { status: 500 });
+        console.error('Error in POST /api/admin/users:', error);
+        return NextResponse.json({ error: error.message || 'Server error' }, { status: 500 });
     }
 }
 
@@ -56,6 +57,7 @@ export async function DELETE(request) {
 
         return NextResponse.json({ success: true });
     } catch (error) {
-        return NextResponse.json({ error: 'Server error' }, { status: 500 });
+        console.error('Error in DELETE /api/admin/users:', error);
+        return NextResponse.json({ error: error.message || 'Server error' }, { status: 500 });
     }
 }

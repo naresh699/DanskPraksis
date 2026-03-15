@@ -8,6 +8,12 @@ export default function SpeechButton({ text, lang = 'da-DK', size = 'normal' }) 
     const speak = useCallback(() => {
         if (typeof window === 'undefined' || !window.speechSynthesis) return;
 
+        if (playing) {
+            window.speechSynthesis.cancel();
+            setPlaying(false);
+            return;
+        }
+
         // Cancel any ongoing speech
         window.speechSynthesis.cancel();
 
@@ -28,7 +34,7 @@ export default function SpeechButton({ text, lang = 'da-DK', size = 'normal' }) 
         utterance.onerror = () => setPlaying(false);
 
         window.speechSynthesis.speak(utterance);
-    }, [text, lang]);
+    }, [text, lang, playing]);
 
     const className = `speech-btn ${playing ? 'playing' : ''} ${size === 'small' ? 'speech-btn-sm' : ''}`;
 

@@ -4,7 +4,9 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import Layout from '@/components/Layout';
 import SpeechButton from '@/components/SpeechButton';
+import VideoReference from '@/components/VideoReference';
 import { verbs, getAllVerbs } from '@/data/verbs';
+import { videoReferences } from '@/data/videoReferences';
 
 export default function VerbsPage() {
     const [activeGroup, setActiveGroup] = useState('group1');
@@ -43,6 +45,7 @@ export default function VerbsPage() {
                 <p className="page-subtitle">
                     Master Danish verb conjugation. Browse verb tables or practice conjugation drills by group.
                 </p>
+                <VideoReference video={videoReferences.verbs} />
             </div>
 
             {/* Group tabs */}

@@ -42,7 +42,16 @@ export async function getUsers() {
 
 export async function saveUsers(users) {
     if (isVercel) {
-        await kv.set('dansk_users', users);
+        try {
+            if (!process.env.KV_REST_API_URL) {
+                console.error('KV_REST_API_URL is missing. Cannot save to Vercel KV.');
+                throw new Error('Vercel KV is not configured (missing KV_REST_API_URL). Please set up Vercel KV in your project dashboard.');
+            }
+            await kv.set('dansk_users', users);
+        } catch (error) {
+            console.error('KV Save Error:', error);
+            throw error;
+        }
     } else {
         fs.writeFileSync(localDbPath, JSON.stringify(users, null, 2));
     }

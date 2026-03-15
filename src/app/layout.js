@@ -3,6 +3,11 @@ import './globals.css';
 export const metadata = {
   title: 'DanskPraksis — Danish Exam Practice',
   description: 'Practice Danish PD2 and PD3 exams with intelligent grammar feedback, pronunciation, and comprehensive lessons.',
+  manifest: '/manifest.json',
+};
+
+export const viewport = {
+  themeColor: '#ffffff',
 };
 
 export default function RootLayout({ children }) {

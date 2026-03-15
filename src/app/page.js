@@ -7,8 +7,8 @@ import { pd3Exams } from '@/data/pd3Exams';
 import { lessons } from '@/data/lessons';
 import { verbs } from '@/data/verbs';
 
-const totalVerbs = Object.values(verbs).reduce((sum, g) => sum + g.verbs.length, 0);
-const totalQuestions = [...pd2Exams, ...pd3Exams].reduce((sum, e) => sum + e.questions.length, 0);
+const totalVerbs = Object.values(verbs).reduce((sum, g) => sum + (g?.verbs?.length || 0), 0);
+const totalQuestions = [...pd2Exams, ...pd3Exams].reduce((sum, e) => sum + (e?.questions?.length || 0), 0);
 
 export default function HomePage() {
   return (

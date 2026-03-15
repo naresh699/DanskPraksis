@@ -2226,6 +2226,511 @@ KEY VOCABULARY:
             { id: 'q6', sentence: '______ børn går i skole. (vores/deres)', sentenceEn: 'Our children go to school.', answer: 'Vores', blank: 'Vores', hint: 'Possessive: our = vores', ruleId: 'present-tense-r', verb: 'possessiv', tense: 'plural' },
         ]
     },
+{
+        "id": "pd2-2021-vinter-ls2-o3",
+        "year": 2021,
+        "season": "Vinter",
+        "type": "Læseforståelse 2 - Opgave 3",
+        "level": "PD2",
+        "lesson": {
+            "title": "Kasper lever billigt",
+            "titleEn": "Kasper lives cheaply"
+        },
+        "questions": [
+            {
+                "sentence": "Selvom det ikke er ret mange penge, er det faktisk nok til at leve ______.",
+                "answer": "for",
+                "hint": "Preposition: 'leve for' (to live on).",
+                "options": [
+                    "for",
+                    "ikke",
+                    "men",
+                    "svært"
+                ]
+            },
+            {
+                "sentence": "Kasper synes faktisk ikke, det er så ______ at leve billigt.",
+                "answer": "svært",
+                "hint": "Adjective: 'svært' (difficult).",
+                "options": [
+                    "svært",
+                    "sjovt",
+                    "altid",
+                    "heldigvis"
+                ]
+            },
+            {
+                "sentence": "Han bor til leje på et værelse, hvor huslejen ______ ikke er ret høj.",
+                "answer": "heldigvis",
+                "hint": "Adverb: 'heldigvis' (fortunately).",
+                "options": [
+                    "heldigvis",
+                    "desværre",
+                    "altid",
+                    "sjældent"
+                ]
+            },
+            {
+                "sentence": "Og når han skal rundt i Aalborg, cykler han næsten ______.",
+                "answer": "altid",
+                "hint": "Adverb: 'altid' (always).",
+                "options": [
+                    "altid",
+                    "aldrig",
+                    "sjældent",
+                    "højest"
+                ]
+            },
+            {
+                "sentence": "Han køber madvarer i det supermarked, hvor prisen er ______.",
+                "answer": "bedst",
+                "hint": "Superlative: 'bedst' (best/lowest price).",
+                "options": [
+                    "bedst",
+                    "højest",
+                    "ikke",
+                    "men"
+                ]
+            },
+            {
+                "sentence": "Kasper kan godt lide kød, ______ han synes, det er for dyrt.",
+                "answer": "men",
+                "hint": "Conjunction: 'men' (but).",
+                "options": [
+                    "men",
+                    "og",
+                    "for",
+                    "svært"
+                ]
+            },
+            {
+                "sentence": "Han synes faktisk også, det er ret ______ at lave vegetarmad.",
+                "answer": "sjovt",
+                "hint": "Adjective: 'sjovt' (fun).",
+                "options": [
+                    "sjovt",
+                    "svært",
+                    "besøg",
+                    "aldrig"
+                ]
+            },
+            {
+                "sentence": "Derfor inviterer hans mor ham tit på ______.",
+                "answer": "besøg",
+                "hint": "Noun: 'besøg' (visit).",
+                "options": [
+                    "besøg",
+                    "restaurant",
+                    "altid",
+                    "for"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "pd2-2021-sommer-ls2-o3",
+        "year": 2021,
+        "season": "Sommer",
+        "type": "Læseforståelse 2 - Opgave 3",
+        "level": "PD2",
+        "lesson": {
+            "title": "En mærkelig pakke",
+            "titleEn": "A strange package"
+        },
+        "questions": [
+            {
+                "sentence": "Anders besøger sine forældre i påskeferien, ______ han synes, det er hyggeligt.",
+                "answer": "for",
+                "hint": "Conjunction: 'for' (because/as).",
+                "options": [
+                    "for",
+                    "men",
+                    "ikke",
+                    "snart"
+                ]
+            },
+            {
+                "sentence": "Men han rydder ______ op efter sig.",
+                "answer": "ikke",
+                "hint": "Negation: 'ikke' (not).",
+                "options": [
+                    "ikke",
+                    "altid",
+                    "snart",
+                    "lækkert"
+                ]
+            },
+            {
+                "sentence": "Han gør det ikke, ______ hans mor beder ham om det.",
+                "answer": "selvom",
+                "hint": "Conjunction: 'selvom' (even though).",
+                "options": [
+                    "selvom",
+                    "fordi",
+                    "men",
+                    "ikke"
+                ]
+            },
+            {
+                "sentence": "Hans mor fortæller, at der ______ kommer en pakke til ham.",
+                "answer": "snart",
+                "hint": "Adverb: 'snart' (soon).",
+                "options": [
+                    "snart",
+                    "altid",
+                    "desværre",
+                    "overrasket"
+                ]
+            },
+            {
+                "sentence": "Et par dage efter ______ han pakken på posthuset.",
+                "answer": "henter",
+                "hint": "Verb: 'henter' (to pick up/collect).",
+                "options": [
+                    "henter",
+                    "afleverer",
+                    "åbner",
+                    "finder"
+                ]
+            },
+            {
+                "sentence": "Da han kommer hjem og lukker den op, bliver han meget ______.",
+                "answer": "overrasket",
+                "hint": "Adjective: 'overrasket' (surprised).",
+                "options": [
+                    "overrasket",
+                    "glad",
+                    "ulækkert",
+                    "snart"
+                ]
+            },
+            {
+                "sentence": "Anders synes, det er rigtig ______.",
+                "answer": "ulækkert",
+                "hint": "Adjective: 'ulækkert' (disgusting/gross).",
+                "options": [
+                    "ulækkert",
+                    "lækkert",
+                    "sjovt",
+                    "ikke"
+                ]
+            },
+            {
+                "sentence": "Næste dag går han på posthuset igen og ______ en pakke til sin mor.",
+                "answer": "afleverer",
+                "hint": "Verb: 'afleverer' (to deliver/drop off).",
+                "options": [
+                    "afleverer",
+                    "henter",
+                    "åbner",
+                    "køber"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "pd2-2020-vinter-ls2-o3",
+        "year": 2020,
+        "season": "Vinter",
+        "type": "Læseforståelse 2 - Opgave 3",
+        "level": "PD2",
+        "lesson": {
+            "title": "En dejlig overraskelse",
+            "titleEn": "A lovely surprise"
+        },
+        "questions": [
+            {
+                "sentence": "Denne dag er helt ______, for Allan og Lena har bryllupsdag.",
+                "answer": "speciel",
+                "hint": "Adjective: 'speciel' (special).",
+                "options": [
+                    "speciel",
+                    "almindelig",
+                    "lange",
+                    "nemlig"
+                ]
+            },
+            {
+                "sentence": "Lena er der allerede, for hun har fået ______ fri end ham.",
+                "answer": "tidligere",
+                "hint": "Comparative: 'tidligere' (earlier).",
+                "options": [
+                    "tidligere",
+                    "senere",
+                    "godt",
+                    "kun"
+                ]
+            },
+            {
+                "sentence": "De bliver overraskede, for de har ______ inviteret gæster.",
+                "answer": "ikke",
+                "hint": "Negation: 'ikke' (not).",
+                "options": [
+                    "ikke",
+                    "altid",
+                    "nemlig",
+                    "fordi"
+                ]
+            },
+            {
+                "sentence": "Allan lukker op, ______ han og Lena har lidt travlt.",
+                "answer": "selvom",
+                "hint": "Conjunction: 'selvom' (even though).",
+                "options": [
+                    "selvom",
+                    "fordi",
+                    "men",
+                    "nemlig"
+                ]
+            },
+            {
+                "sentence": "Men han fortæller, at de desværre ______ har tid til en hurtig kop kaffe.",
+                "answer": "kun",
+                "hint": "Adverb: 'kun' (only).",
+                "options": [
+                    "kun",
+                    "ikke",
+                    "altid",
+                    "senere"
+                ]
+            },
+            {
+                "sentence": "Allan bliver ______.",
+                "answer": "irriteret",
+                "hint": "Adjective: 'irriteret' (annoyed).",
+                "options": [
+                    "irriteret",
+                    "glad",
+                    "overrasket",
+                    "godt"
+                ]
+            },
+            {
+                "sentence": "Hun forstår nemlig ______, at de glæder sig til en aften alene.",
+                "answer": "godt",
+                "hint": "Adverb: 'godt' (well/fully).",
+                "options": [
+                    "godt",
+                    "ikke",
+                    "nemlig",
+                    "speciel"
+                ]
+            },
+            {
+                "sentence": "Allan og Lena bliver meget glade, ______ de nu skal til Italien.",
+                "answer": "fordi",
+                "hint": "Conjunction: 'fordi' (because).",
+                "options": [
+                    "fordi",
+                    "selvom",
+                    "men",
+                    "nemlig"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "pd2-2020-sommer-ls2-o3",
+        "year": 2020,
+        "season": "Sommer",
+        "type": "Læseforståelse 2 - Opgave 3",
+        "level": "PD2",
+        "lesson": {
+            "title": "Ida bor på kollegium",
+            "titleEn": "Ida lives in a dormitory"
+        },
+        "questions": [
+            {
+                "sentence": "Værelset er lidt ______ end det, hun havde hjemme.",
+                "answer": "mindre",
+                "hint": "Comparative: 'mindre' (smaller).",
+                "options": [
+                    "mindre",
+                    "større",
+                    "stille",
+                    "for"
+                ]
+            },
+            {
+                "sentence": "For det meste synes Ida, at det er ______ at bo på kollegiet.",
+                "answer": "hyggeligt",
+                "hint": "Adjective: 'hyggeligt' (cozy/pleasant).",
+                "options": [
+                    "hyggeligt",
+                    "kedeligt",
+                    "utilfreds",
+                    "altid"
+                ]
+            },
+            {
+                "sentence": "Det deltager Ida næsten ______ i.",
+                "answer": "altid",
+                "hint": "Adverb: 'altid' (always).",
+                "options": [
+                    "altid",
+                    "aldrig",
+                    "derfor",
+                    "for"
+                ]
+            },
+            {
+                "sentence": "Der er en fyr, der ______ rydder op efter sig.",
+                "answer": "aldrig",
+                "hint": "Adverb: 'aldrig' (never).",
+                "options": [
+                    "aldrig",
+                    "altid",
+                    "stille",
+                    "derfor"
+                ]
+            },
+            {
+                "sentence": "Det er Ida ret sur over, ______ det betyder, hun skal gøre rent efter ham.",
+                "answer": "for",
+                "hint": "Conjunction: 'for' (because).",
+                "options": [
+                    "for",
+                    "selvom",
+                    "derfor",
+                    "tilfreds"
+                ]
+            },
+            {
+                "sentence": "Ida er også træt af, at der tit er ______ på kollegiet.",
+                "answer": "larm",
+                "hint": "Noun: 'larm' (noise).",
+                "options": [
+                    "larm",
+                    "stille",
+                    "hyggeligt",
+                    "derfor"
+                ]
+            },
+            {
+                "sentence": "Det gør hun hver dag, ______ Ida har bedt hende om at skrue ned.",
+                "answer": "selvom",
+                "hint": "Conjunction: 'selvom' (even though).",
+                "options": [
+                    "selvom",
+                    "fordi",
+                    "derfor",
+                    "altid"
+                ]
+            },
+            {
+                "sentence": "Men alt i alt er Ida ______ med at bo på kollegiet.",
+                "answer": "tilfreds",
+                "hint": "Adjective: 'tilfreds' (satisfied).",
+                "options": [
+                    "tilfreds",
+                    "utilfreds",
+                    "glad",
+                    "derfor"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "pd2-2019-vinter-ls2-o3",
+        "year": 2019,
+        "season": "Vinter",
+        "type": "Læseforståelse 2 - Opgave 3",
+        "level": "PD2",
+        "lesson": {
+            "title": "Et heldigt møde",
+            "titleEn": "A lucky meeting"
+        },
+        "questions": [
+            {
+                "sentence": "Magnus har planlagt at tage bilen, ______ da han sætter sig ud i den, vil den ikke starte.",
+                "answer": "men",
+                "hint": "Conjunction: 'men' (but).",
+                "options": [
+                    "men",
+                    "og",
+                    "selvom",
+                    "for"
+                ]
+            },
+            {
+                "sentence": "Men da han skal betale, har han hverken ______ at få sin pung eller telefon med.",
+                "answer": "husket",
+                "hint": "Past participle: 'husket' (remembered).",
+                "options": [
+                    "husket",
+                    "glemt",
+                    "med",
+                    "for"
+                ]
+            },
+            {
+                "sentence": "Magnus vil ikke tage toget ______ billet.",
+                "answer": "uden",
+                "hint": "Preposition: 'uden' (without).",
+                "options": [
+                    "uden",
+                    "med",
+                    "for",
+                    "ikke"
+                ]
+            },
+            {
+                "sentence": "Selvom de ______ kender hinanden, tilbyder hun at købe en billet.",
+                "answer": "ikke",
+                "hint": "Negation: 'ikke' (not).",
+                "options": [
+                    "ikke",
+                    "alle",
+                    "godt",
+                    "kun"
+                ]
+            },
+            {
+                "sentence": "Han er lettet, men også lidt nervøs, ______ han tænker på samtalen.",
+                "answer": "for",
+                "hint": "Conjunction: 'for' (because).",
+                "options": [
+                    "for",
+                    "men",
+                    "selvom",
+                    "og"
+                ]
+            },
+            {
+                "sentence": "Samtalen går heldigvis godt, så Magnus er ret ______.",
+                "answer": "tilfreds",
+                "hint": "Adjective: 'tilfreds' (satisfied).",
+                "options": [
+                    "tilfreds",
+                    "skuffet",
+                    "godt",
+                    "glemt"
+                ]
+            },
+            {
+                "sentence": "Han sender hende ikke ______ pengene, men også en sms.",
+                "answer": "kun",
+                "hint": "Adverb: 'kun' (only - used with 'men også').",
+                "options": [
+                    "kun",
+                    "alle",
+                    "ikke",
+                    "med"
+                ]
+            },
+            {
+                "sentence": "Magnus har ikke ______ sin pung denne gang.",
+                "answer": "glemt",
+                "hint": "Past participle: 'glemt' (forgotten).",
+                "options": [
+                    "glemt",
+                    "husket",
+                    "uden",
+                    "for"
+                ]
+            }
+        ]
+    }
 ];
 
 // Get all unique years
